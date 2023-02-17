@@ -75,7 +75,7 @@
             // BtnLogin
             // 
             this.BtnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnLogin.Location = new System.Drawing.Point(168, 510);
+            this.BtnLogin.Location = new System.Drawing.Point(168, 512);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(290, 35);
             this.BtnLogin.TabIndex = 4;
