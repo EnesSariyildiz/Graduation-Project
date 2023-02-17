@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmIsFiltreleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIsFiltreleme.Designer.cs">
+      <DependentUpon>FrmIsFiltreleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmIslem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="sqlbaglantisi.cs" />
     <EmbeddedResource Include="FrmGiris.resx">
       <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIsFiltreleme.resx">
+      <DependentUpon>FrmIsFiltreleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIsTanımla.resx">
       <DependentUpon>FrmIsTanımla.cs</DependentUpon>

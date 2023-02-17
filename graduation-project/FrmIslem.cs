@@ -35,7 +35,21 @@ namespace graduation_project
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmIsTanımla fr = new FrmIsTanımla();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void BtnFiltreleme_Click(object sender, EventArgs e)
+        {
+            FrmIsFiltreleme fr = new FrmIsFiltreleme();
+            fr.Show();
+            this.Hide();
         }
     }
 }
