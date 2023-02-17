@@ -16,5 +16,15 @@ namespace graduation_project
         {
             InitializeComponent();
         }
+
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+            if (TxtId.Text == "admin" &&  TxtPassword.Text=="1234")
+            {
+                Frmİslem fr = new Frmİslem();
+                fr.Show();
+                this.Hide();
+            }
+        }
     }
 }

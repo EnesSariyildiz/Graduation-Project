@@ -1,0 +1,4 @@
+﻿Personal id : admin
+password    : 1234
+Sql Baglanti adresi:
+Data Source=DESKTOP-T54ECK5;Initial Catalog=GraduationProject;Integrated Security=True
