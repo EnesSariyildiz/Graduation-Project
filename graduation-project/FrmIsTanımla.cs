@@ -20,6 +20,16 @@ namespace graduation_project
         }
         sqlbaglantisi bgl = new sqlbaglantisi();
 
+        public void Temizle()
+        {
+            TxtBaslik.Text = "";
+            TxtProje.Text = "";
+            CmbDurum.Text = "";
+            CmbIsTipi.Text = "";
+            CmbSorumlu.Text = "";
+            RchAciklama.Text = "";
+        }
+
         private void BtnTanımla_Click(object sender, EventArgs e)
         {
 
@@ -54,6 +64,12 @@ namespace graduation_project
             Frmİslem fr = new Frmİslem();
             fr.Show();
             this.Hide();
+        }
+
+
+        private void BtnTemizle_Click(object sender, EventArgs e)
+        {
+            Temizle();
         }
     }
 }

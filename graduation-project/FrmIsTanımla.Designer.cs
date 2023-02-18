@@ -49,6 +49,7 @@
             this.TxtBaslik = new System.Windows.Forms.TextBox();
             this.CmbIsTipi = new System.Windows.Forms.ComboBox();
             this.CmbDurum = new System.Windows.Forms.ComboBox();
+            this.BtnTemizle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +136,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.BtnTemizle);
             this.groupBox1.Controls.Add(this.BtnIslemDon);
             this.groupBox1.Controls.Add(this.BtnTanımla);
             this.groupBox1.Controls.Add(this.DtpTeslimTarih);
@@ -164,7 +166,7 @@
             // 
             // BtnIslemDon
             // 
-            this.BtnIslemDon.Location = new System.Drawing.Point(448, 482);
+            this.BtnIslemDon.Location = new System.Drawing.Point(448, 521);
             this.BtnIslemDon.Name = "BtnIslemDon";
             this.BtnIslemDon.Size = new System.Drawing.Size(224, 40);
             this.BtnIslemDon.TabIndex = 19;
@@ -272,6 +274,16 @@
             this.CmbDurum.Size = new System.Drawing.Size(224, 37);
             this.CmbDurum.TabIndex = 9;
             // 
+            // BtnTemizle
+            // 
+            this.BtnTemizle.Location = new System.Drawing.Point(448, 475);
+            this.BtnTemizle.Name = "BtnTemizle";
+            this.BtnTemizle.Size = new System.Drawing.Size(224, 40);
+            this.BtnTemizle.TabIndex = 20;
+            this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.UseVisualStyleBackColor = true;
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
+            // 
             // FrmIsTanımla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 29F);
@@ -315,5 +327,6 @@
         private System.Windows.Forms.RichTextBox RchAciklama;
         private System.Windows.Forms.Button BtnTanımla;
         private System.Windows.Forms.Button BtnIslemDon;
+        private System.Windows.Forms.Button BtnTemizle;
     }
 }
