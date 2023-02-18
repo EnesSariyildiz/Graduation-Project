@@ -21,5 +21,12 @@ namespace graduation_project
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Frmİslem fr = new Frmİslem();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

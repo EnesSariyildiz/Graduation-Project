@@ -22,26 +22,31 @@ namespace graduation_project
 
         private void BtnTanımla_Click(object sender, EventArgs e)
         {
-            /*
-             * 
-             * örnek veri tabanı ekleme bloğu
+
+
+            // örnek veri tabanı ekleme bloğu
             //Bağlantı açılıyor.
-            SqlCommand komut = new SqlCommand("insert into Tbl_Islem (PerAd, PerSoyad,PerSehir,PerMaas,PerMeslek,PerDurum) values (@p1,@p2,@p3,@p4,@p5,@p6)", baglanti);
+            
+            SqlCommand komut = new SqlCommand("insert into Tbl_Isler (Durum, IsTipi,Baslik,Aciklama,Proje,SorumluKullanici,OlusturmaTarihi,GuncellemeTarihi,TeslimTarihi) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9)", bgl.baglanti());
             //@p = parametrenin p harfi kullanılıyor, isteğe göre farklı değer ataması yapılabilir.
-            komut.Parameters.AddWithValue("@p1", TxtAd.Text);
-            komut.Parameters.AddWithValue("@p2", TxtSoyad.Text);
-            komut.Parameters.AddWithValue("@p3", CmbSehir.Text);
-            komut.Parameters.AddWithValue("@p4", MskMaas.Text);
-            komut.Parameters.AddWithValue("@p5", TxtMeslek.Text);
-            komut.Parameters.AddWithValue("@p6", label8.Text);
+            komut.Parameters.AddWithValue("@p1", CmbDurum.Text);
+            komut.Parameters.AddWithValue("@p2", CmbIsTipi.Text);
+            komut.Parameters.AddWithValue("@p3", TxtBaslik.Text);
+            komut.Parameters.AddWithValue("@p4", RchAciklama.Text);
+            komut.Parameters.AddWithValue("@p5", TxtProje.Text);
+            komut.Parameters.AddWithValue("@p6", CmbSorumlu.Text);
+            komut.Parameters.AddWithValue("@p7", DtpOlusturmaTarih.Text);
+            komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.Text);
+            komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.Text);
+
 
 
             komut.ExecuteNonQuery();
             //Executenonquery = sorguyu çalıştır.
-            bgl.baglanti.Close();
+            bgl.baglanti().Close();
             //Bağlantı kapatılıyor.
             MessageBox.Show("Personel Eklendi!");
-            */
+
         }
 
 

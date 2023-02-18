@@ -38,17 +38,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.CmbDurum = new System.Windows.Forms.ComboBox();
-            this.CmbİsTipi = new System.Windows.Forms.ComboBox();
-            this.TxtBaslik = new System.Windows.Forms.TextBox();
-            this.TxtProje = new System.Windows.Forms.TextBox();
-            this.CmbSorumlu = new System.Windows.Forms.ComboBox();
-            this.RchAciklama = new System.Windows.Forms.RichTextBox();
-            this.DtpOlusturmaTarih = new System.Windows.Forms.DateTimePicker();
-            this.DtpGuncellemeTarih = new System.Windows.Forms.DateTimePicker();
-            this.DtpTeslimTarih = new System.Windows.Forms.DateTimePicker();
-            this.BtnTanımla = new System.Windows.Forms.Button();
             this.BtnIslemDon = new System.Windows.Forms.Button();
+            this.BtnTanımla = new System.Windows.Forms.Button();
+            this.DtpTeslimTarih = new System.Windows.Forms.DateTimePicker();
+            this.DtpGuncellemeTarih = new System.Windows.Forms.DateTimePicker();
+            this.DtpOlusturmaTarih = new System.Windows.Forms.DateTimePicker();
+            this.RchAciklama = new System.Windows.Forms.RichTextBox();
+            this.CmbSorumlu = new System.Windows.Forms.ComboBox();
+            this.TxtProje = new System.Windows.Forms.TextBox();
+            this.TxtBaslik = new System.Windows.Forms.TextBox();
+            this.CmbIsTipi = new System.Windows.Forms.ComboBox();
+            this.CmbDurum = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -144,7 +144,7 @@
             this.groupBox1.Controls.Add(this.CmbSorumlu);
             this.groupBox1.Controls.Add(this.TxtProje);
             this.groupBox1.Controls.Add(this.TxtBaslik);
-            this.groupBox1.Controls.Add(this.CmbİsTipi);
+            this.groupBox1.Controls.Add(this.CmbIsTipi);
             this.groupBox1.Controls.Add(this.CmbDurum);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label9);
@@ -162,46 +162,54 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "İş Tanımlama";
             // 
-            // CmbDurum
+            // BtnIslemDon
             // 
-            this.CmbDurum.FormattingEnabled = true;
-            this.CmbDurum.Items.AddRange(new object[] {
-            "Yeni",
-            "Test",
-            "Canlı",
-            "Analiz",
-            "Geliştirme",
-            "Müşteri Testi"});
-            this.CmbDurum.Location = new System.Drawing.Point(127, 155);
-            this.CmbDurum.Name = "CmbDurum";
-            this.CmbDurum.Size = new System.Drawing.Size(224, 37);
-            this.CmbDurum.TabIndex = 9;
+            this.BtnIslemDon.Location = new System.Drawing.Point(448, 482);
+            this.BtnIslemDon.Name = "BtnIslemDon";
+            this.BtnIslemDon.Size = new System.Drawing.Size(224, 40);
+            this.BtnIslemDon.TabIndex = 19;
+            this.BtnIslemDon.Text = "İşlem Sayfasına Dön";
+            this.BtnIslemDon.UseVisualStyleBackColor = true;
+            this.BtnIslemDon.Click += new System.EventHandler(this.BtnIslemDon_Click);
             // 
-            // CmbİsTipi
+            // BtnTanımla
             // 
-            this.CmbİsTipi.FormattingEnabled = true;
-            this.CmbİsTipi.Items.AddRange(new object[] {
-            "Soru",
-            "Hata",
-            "Geliştirme"});
-            this.CmbİsTipi.Location = new System.Drawing.Point(127, 203);
-            this.CmbİsTipi.Name = "CmbİsTipi";
-            this.CmbİsTipi.Size = new System.Drawing.Size(224, 37);
-            this.CmbİsTipi.TabIndex = 10;
+            this.BtnTanımla.Location = new System.Drawing.Point(448, 428);
+            this.BtnTanımla.Name = "BtnTanımla";
+            this.BtnTanımla.Size = new System.Drawing.Size(224, 41);
+            this.BtnTanımla.TabIndex = 18;
+            this.BtnTanımla.Text = "Tanımla";
+            this.BtnTanımla.UseVisualStyleBackColor = true;
+            this.BtnTanımla.Click += new System.EventHandler(this.BtnTanımla_Click);
             // 
-            // TxtBaslik
+            // DtpTeslimTarih
             // 
-            this.TxtBaslik.Location = new System.Drawing.Point(448, 152);
-            this.TxtBaslik.Name = "TxtBaslik";
-            this.TxtBaslik.Size = new System.Drawing.Size(224, 37);
-            this.TxtBaslik.TabIndex = 11;
+            this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 377);
+            this.DtpTeslimTarih.Name = "DtpTeslimTarih";
+            this.DtpTeslimTarih.Size = new System.Drawing.Size(224, 37);
+            this.DtpTeslimTarih.TabIndex = 17;
             // 
-            // TxtProje
+            // DtpGuncellemeTarih
             // 
-            this.TxtProje.Location = new System.Drawing.Point(448, 203);
-            this.TxtProje.Name = "TxtProje";
-            this.TxtProje.Size = new System.Drawing.Size(224, 37);
-            this.TxtProje.TabIndex = 12;
+            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 317);
+            this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
+            this.DtpGuncellemeTarih.Size = new System.Drawing.Size(224, 37);
+            this.DtpGuncellemeTarih.TabIndex = 16;
+            // 
+            // DtpOlusturmaTarih
+            // 
+            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 263);
+            this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
+            this.DtpOlusturmaTarih.Size = new System.Drawing.Size(224, 37);
+            this.DtpOlusturmaTarih.TabIndex = 15;
+            // 
+            // RchAciklama
+            // 
+            this.RchAciklama.Location = new System.Drawing.Point(860, 211);
+            this.RchAciklama.Name = "RchAciklama";
+            this.RchAciklama.Size = new System.Drawing.Size(224, 311);
+            this.RchAciklama.TabIndex = 14;
+            this.RchAciklama.Text = "";
             // 
             // CmbSorumlu
             // 
@@ -220,54 +228,46 @@
             this.CmbSorumlu.Size = new System.Drawing.Size(224, 37);
             this.CmbSorumlu.TabIndex = 13;
             // 
-            // RchAciklama
+            // TxtProje
             // 
-            this.RchAciklama.Location = new System.Drawing.Point(860, 211);
-            this.RchAciklama.Name = "RchAciklama";
-            this.RchAciklama.Size = new System.Drawing.Size(224, 311);
-            this.RchAciklama.TabIndex = 14;
-            this.RchAciklama.Text = "";
+            this.TxtProje.Location = new System.Drawing.Point(448, 203);
+            this.TxtProje.Name = "TxtProje";
+            this.TxtProje.Size = new System.Drawing.Size(224, 37);
+            this.TxtProje.TabIndex = 12;
             // 
-            // DtpOlusturmaTarih
+            // TxtBaslik
             // 
-            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 263);
-            this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
-            this.DtpOlusturmaTarih.Size = new System.Drawing.Size(224, 37);
-            this.DtpOlusturmaTarih.TabIndex = 15;
+            this.TxtBaslik.Location = new System.Drawing.Point(448, 152);
+            this.TxtBaslik.Name = "TxtBaslik";
+            this.TxtBaslik.Size = new System.Drawing.Size(224, 37);
+            this.TxtBaslik.TabIndex = 11;
             // 
-            // DtpGuncellemeTarih
+            // CmbIsTipi
             // 
-            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 317);
-            this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
-            this.DtpGuncellemeTarih.Size = new System.Drawing.Size(224, 37);
-            this.DtpGuncellemeTarih.TabIndex = 16;
+            this.CmbIsTipi.FormattingEnabled = true;
+            this.CmbIsTipi.Items.AddRange(new object[] {
+            "Soru",
+            "Hata",
+            "Geliştirme"});
+            this.CmbIsTipi.Location = new System.Drawing.Point(127, 203);
+            this.CmbIsTipi.Name = "CmbIsTipi";
+            this.CmbIsTipi.Size = new System.Drawing.Size(224, 37);
+            this.CmbIsTipi.TabIndex = 10;
             // 
-            // DtpTeslimTarih
+            // CmbDurum
             // 
-            this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 377);
-            this.DtpTeslimTarih.Name = "DtpTeslimTarih";
-            this.DtpTeslimTarih.Size = new System.Drawing.Size(224, 37);
-            this.DtpTeslimTarih.TabIndex = 17;
-            // 
-            // BtnTanımla
-            // 
-            this.BtnTanımla.Location = new System.Drawing.Point(448, 428);
-            this.BtnTanımla.Name = "BtnTanımla";
-            this.BtnTanımla.Size = new System.Drawing.Size(224, 41);
-            this.BtnTanımla.TabIndex = 18;
-            this.BtnTanımla.Text = "Tanımla";
-            this.BtnTanımla.UseVisualStyleBackColor = true;
-            this.BtnTanımla.Click += new System.EventHandler(this.BtnTanımla_Click);
-            // 
-            // BtnIslemDon
-            // 
-            this.BtnIslemDon.Location = new System.Drawing.Point(448, 482);
-            this.BtnIslemDon.Name = "BtnIslemDon";
-            this.BtnIslemDon.Size = new System.Drawing.Size(224, 40);
-            this.BtnIslemDon.TabIndex = 19;
-            this.BtnIslemDon.Text = "İşlem Sayfasına Dön";
-            this.BtnIslemDon.UseVisualStyleBackColor = true;
-            this.BtnIslemDon.Click += new System.EventHandler(this.BtnIslemDon_Click);
+            this.CmbDurum.FormattingEnabled = true;
+            this.CmbDurum.Items.AddRange(new object[] {
+            "Yeni",
+            "Test",
+            "Canlı",
+            "Analiz",
+            "Geliştirme",
+            "Müşteri Testi"});
+            this.CmbDurum.Location = new System.Drawing.Point(127, 155);
+            this.CmbDurum.Name = "CmbDurum";
+            this.CmbDurum.Size = new System.Drawing.Size(224, 37);
+            this.CmbDurum.TabIndex = 9;
             // 
             // FrmIsTanımla
             // 
@@ -301,7 +301,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CmbİsTipi;
+        private System.Windows.Forms.ComboBox CmbIsTipi;
         private System.Windows.Forms.ComboBox CmbDurum;
         private System.Windows.Forms.ComboBox CmbSorumlu;
         private System.Windows.Forms.TextBox TxtProje;
