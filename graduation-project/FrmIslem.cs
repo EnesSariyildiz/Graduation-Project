@@ -54,28 +54,35 @@ namespace graduation_project
 
         private void BtnSilme_Click(object sender, EventArgs e)
         {
-            SqlCommand komutsil = new SqlCommand("Delete From Tbl_Isler where = @k1", bgl.baglanti());
-            //komutsil.Parameters.AddWithValue("@k1");
-            komutsil.ExecuteNonQuery();
-            //Executenonquery = sorguyu çalıştır.
-            bgl.baglanti().Close();
-            //Bağlantı kapatılıyor.
-            MessageBox.Show("Kayıt Silindi!");
+            FrmSilme fr = new FrmSilme();
+            fr.Show();
+            this.Hide();
+
+
+            //SqlCommand komutsil = new SqlCommand("Delete From Tbl_Isler where = @k1", bgl.baglanti());
+            //komutsil.Parameters.AddWithValue("@k1",);
+            //komutsil.ExecuteNonQuery();
+            ////Executenonquery = sorguyu çalıştır.
+            //bgl.baglanti().Close();
+            ////Bağlantı kapatılıyor.
+            //MessageBox.Show("Kayıt Silindi!");
 
         }
 
         private void BtnListele_Click(object sender, EventArgs e)
         {
-            //SqlCommand komutListele = new SqlCommand("Select * from Tbl_Isler", bgl.baglanti());
-            //komutListele.ExecuteNonQuery();
-            //bgl.baglanti().Close();
-            //MessageBox.Show("Kayıtlar Listelendi!");
-
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            MessageBox.Show("Kayıtlar Listelendi!");
+            MessageBox.Show("Kayıt listeleri yenilendi!");
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+
         }
     }
 }

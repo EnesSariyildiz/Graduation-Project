@@ -12,3 +12,4 @@ C:\Users\ens_s\Desktop\Software\graduation project\graduation-project\graduation
 C:\Users\ens_s\Desktop\Software\graduation project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmIsTanımla.resources
 C:\Users\ens_s\Desktop\Software\graduation project\graduation-project\graduation-project\obj\Debug\graduation_project.Frmİslem.resources
 C:\Users\ens_s\Desktop\Software\graduation project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmIsFiltreleme.resources
+C:\Users\ens_s\Desktop\Software\graduation project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmSilme.resources

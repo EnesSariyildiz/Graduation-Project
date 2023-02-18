@@ -32,10 +32,6 @@ namespace graduation_project
 
         private void BtnTanımla_Click(object sender, EventArgs e)
         {
-
-
-            // örnek veri tabanı ekleme bloğu
-
             SqlCommand komut = new SqlCommand("insert into Tbl_Isler (Durum, IsTipi,Baslik,Aciklama,Proje,SorumluKullanici,OlusturmaTarihi,GuncellemeTarihi,TeslimTarihi) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9)", bgl.baglanti());
             //@p = parametrenin p harfi kullanılıyor, isteğe göre farklı değer ataması yapılabilir.
             komut.Parameters.AddWithValue("@p1", CmbDurum.Text);
@@ -48,16 +44,14 @@ namespace graduation_project
             komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.MinDate);
             komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.MinDate);
 
-
-
             komut.ExecuteNonQuery();
             //Executenonquery = sorguyu çalıştır.
+
             bgl.baglanti().Close();
             //Bağlantı kapatılıyor.
+
             MessageBox.Show("Kayıt Eklendi!");
-
         }
-
 
         private void BtnIslemDon_Click(object sender, EventArgs e)
         {
