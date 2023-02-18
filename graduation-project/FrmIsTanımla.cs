@@ -25,8 +25,7 @@ namespace graduation_project
 
 
             // örnek veri tabanı ekleme bloğu
-            //Bağlantı açılıyor.
-            
+
             SqlCommand komut = new SqlCommand("insert into Tbl_Isler (Durum, IsTipi,Baslik,Aciklama,Proje,SorumluKullanici,OlusturmaTarihi,GuncellemeTarihi,TeslimTarihi) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9)", bgl.baglanti());
             //@p = parametrenin p harfi kullanılıyor, isteğe göre farklı değer ataması yapılabilir.
             komut.Parameters.AddWithValue("@p1", CmbDurum.Text);
@@ -35,9 +34,9 @@ namespace graduation_project
             komut.Parameters.AddWithValue("@p4", RchAciklama.Text);
             komut.Parameters.AddWithValue("@p5", TxtProje.Text);
             komut.Parameters.AddWithValue("@p6", CmbSorumlu.Text);
-            komut.Parameters.AddWithValue("@p7", DtpOlusturmaTarih.Text);
-            komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.Text);
-            komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.Text);
+            komut.Parameters.AddWithValue("@p7", DtpOlusturmaTarih.MinDate);
+            komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.MinDate);
+            komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.MinDate);
 
 
 
@@ -45,7 +44,7 @@ namespace graduation_project
             //Executenonquery = sorguyu çalıştır.
             bgl.baglanti().Close();
             //Bağlantı kapatılıyor.
-            MessageBox.Show("Personel Eklendi!");
+            MessageBox.Show("Kayıt Eklendi!");
 
         }
 

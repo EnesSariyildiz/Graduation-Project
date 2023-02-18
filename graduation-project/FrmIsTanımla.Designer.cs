@@ -184,6 +184,7 @@
             // 
             // DtpTeslimTarih
             // 
+            this.DtpTeslimTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 377);
             this.DtpTeslimTarih.Name = "DtpTeslimTarih";
             this.DtpTeslimTarih.Size = new System.Drawing.Size(224, 37);
@@ -191,6 +192,7 @@
             // 
             // DtpGuncellemeTarih
             // 
+            this.DtpGuncellemeTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 317);
             this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
             this.DtpGuncellemeTarih.Size = new System.Drawing.Size(224, 37);
@@ -198,6 +200,7 @@
             // 
             // DtpOlusturmaTarih
             // 
+            this.DtpOlusturmaTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 263);
             this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
             this.DtpOlusturmaTarih.Size = new System.Drawing.Size(224, 37);
