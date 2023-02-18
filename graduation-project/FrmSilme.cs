@@ -30,8 +30,9 @@ namespace graduation_project
 
         private void BtnKaydıSil_Click(object sender, EventArgs e)
         {
-            string queryDelete = "DELETE FROM Tbl_Isler WHERE Id = @ID";
-            SqlCommand commandDelete = new SqlCommand(queryDelete, bgl.baglanti());
+            //string queryDelete = "DELETE FROM Tbl_Isler WHERE Id = @ID";
+            //SqlCommand commandDelete = new SqlCommand(queryDelete, bgl.baglanti());
+            SqlCommand commandDelete = new SqlCommand("DELETE FROM Tbl_Isler WHERE Id = @ID", bgl.baglanti());
             commandDelete.Parameters.AddWithValue("@ID", TxtId.Text);
             commandDelete.ExecuteNonQuery();
             bgl.baglanti().Close();
@@ -52,6 +53,7 @@ namespace graduation_project
             SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+
             MessageBox.Show("Kayıt listeleri güncellendi!");
         }
     }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIsTanımla));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,6 +39,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnTemizle = new System.Windows.Forms.Button();
             this.BtnIslemDon = new System.Windows.Forms.Button();
             this.BtnTanımla = new System.Windows.Forms.Button();
             this.DtpTeslimTarih = new System.Windows.Forms.DateTimePicker();
@@ -49,7 +51,6 @@
             this.TxtBaslik = new System.Windows.Forms.TextBox();
             this.CmbIsTipi = new System.Windows.Forms.ComboBox();
             this.CmbDurum = new System.Windows.Forms.ComboBox();
-            this.BtnTemizle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -164,6 +165,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "İş Tanımlama";
             // 
+            // BtnTemizle
+            // 
+            this.BtnTemizle.Location = new System.Drawing.Point(448, 475);
+            this.BtnTemizle.Name = "BtnTemizle";
+            this.BtnTemizle.Size = new System.Drawing.Size(224, 40);
+            this.BtnTemizle.TabIndex = 20;
+            this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.UseVisualStyleBackColor = true;
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
+            // 
             // BtnIslemDon
             // 
             this.BtnIslemDon.Location = new System.Drawing.Point(448, 521);
@@ -274,16 +285,6 @@
             this.CmbDurum.Size = new System.Drawing.Size(224, 37);
             this.CmbDurum.TabIndex = 9;
             // 
-            // BtnTemizle
-            // 
-            this.BtnTemizle.Location = new System.Drawing.Point(448, 475);
-            this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(224, 40);
-            this.BtnTemizle.TabIndex = 20;
-            this.BtnTemizle.Text = "Temizle";
-            this.BtnTemizle.UseVisualStyleBackColor = true;
-            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
-            // 
             // FrmIsTanımla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 29F);
@@ -293,6 +294,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.MaximizeBox = false;
             this.Name = "FrmIsTanımla";

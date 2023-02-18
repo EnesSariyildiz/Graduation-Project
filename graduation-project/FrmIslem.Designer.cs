@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frmİslem));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -101,7 +102,7 @@
             // BtnFiltreleme
             // 
             this.BtnFiltreleme.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnFiltreleme.Location = new System.Drawing.Point(6, 277);
+            this.BtnFiltreleme.Location = new System.Drawing.Point(6, 312);
             this.BtnFiltreleme.Name = "BtnFiltreleme";
             this.BtnFiltreleme.Size = new System.Drawing.Size(197, 29);
             this.BtnFiltreleme.TabIndex = 6;
@@ -149,7 +150,7 @@
             // BtnDuzenle
             // 
             this.BtnDuzenle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnDuzenle.Location = new System.Drawing.Point(7, 347);
+            this.BtnDuzenle.Location = new System.Drawing.Point(6, 347);
             this.BtnDuzenle.Name = "BtnDuzenle";
             this.BtnDuzenle.Size = new System.Drawing.Size(197, 29);
             this.BtnDuzenle.TabIndex = 1;
@@ -159,7 +160,7 @@
             // BtnTanımlama
             // 
             this.BtnTanımlama.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnTanımlama.Location = new System.Drawing.Point(7, 312);
+            this.BtnTanımlama.Location = new System.Drawing.Point(6, 277);
             this.BtnTanımlama.Name = "BtnTanımlama";
             this.BtnTanımlama.Size = new System.Drawing.Size(197, 29);
             this.BtnTanımlama.TabIndex = 0;
@@ -178,6 +179,7 @@
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.Name = "Frmİslem";
