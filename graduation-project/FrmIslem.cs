@@ -75,7 +75,7 @@ namespace graduation_project
             SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            MessageBox.Show("Kayıt listeleri yenilendi!");
+            MessageBox.Show("Kayıt listeleri güncellendi!");
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)

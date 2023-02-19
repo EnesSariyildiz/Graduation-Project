@@ -30,29 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIsFiltreleme));
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.CmbDurum = new System.Windows.Forms.ComboBox();
+            this.CmbIsTipi = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.CmbSorumlu = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DtpOlusturmaTarih = new System.Windows.Forms.DateTimePicker();
+            this.DtpGuncellemeTarih = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.DtpTeslimTarih = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnFiltrele = new System.Windows.Forms.Button();
+            this.BtnGeriDön = new System.Windows.Forms.Button();
+            this.TxtBaslik = new System.Windows.Forms.TextBox();
+            this.TxtProje = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -68,93 +64,82 @@
             this.label1.Text = "Durum";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox1
+            // CmbDurum
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(72, 13);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 33);
-            this.comboBox1.TabIndex = 1;
+            this.CmbDurum.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.CmbDurum.FormattingEnabled = true;
+            this.CmbDurum.Items.AddRange(new object[] {
+            "Test",
+            "Yeni",
+            "Canlı",
+            "Analiz",
+            "Geliştirme",
+            "Müşteri Testi"});
+            this.CmbDurum.Location = new System.Drawing.Point(72, 13);
+            this.CmbDurum.Name = "CmbDurum";
+            this.CmbDurum.Size = new System.Drawing.Size(144, 37);
+            this.CmbDurum.TabIndex = 1;
             // 
-            // comboBox2
+            // CmbIsTipi
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(326, 13);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(144, 33);
-            this.comboBox2.TabIndex = 3;
+            this.CmbIsTipi.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.CmbIsTipi.FormattingEnabled = true;
+            this.CmbIsTipi.Items.AddRange(new object[] {
+            "Soru",
+            "Hata",
+            "Geliştirme"});
+            this.CmbIsTipi.Location = new System.Drawing.Point(351, 13);
+            this.CmbIsTipi.Name = "CmbIsTipi";
+            this.CmbIsTipi.Size = new System.Drawing.Size(144, 37);
+            this.CmbIsTipi.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(268, 21);
+            this.label2.Location = new System.Drawing.Point(293, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "İş Tipi";
             // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(821, 13);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(144, 33);
-            this.comboBox3.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(751, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 19);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Açıklama";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(566, 13);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(144, 33);
-            this.comboBox4.TabIndex = 5;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(508, 21);
+            this.label4.Location = new System.Drawing.Point(574, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "Başlık";
             // 
-            // comboBox5
+            // CmbSorumlu
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(326, 55);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(144, 33);
-            this.comboBox5.TabIndex = 11;
+            this.CmbSorumlu.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.CmbSorumlu.FormattingEnabled = true;
+            this.CmbSorumlu.Items.AddRange(new object[] {
+            "Boran Tufan",
+            "Aysun Kutlu",
+            "Celal Topçu",
+            "Ceyda Saygi",
+            "Güney Uğurlu",
+            "Altay Köse",
+            "Burçin Koçyigit",
+            "Doruk Öztürk"});
+            this.CmbSorumlu.Location = new System.Drawing.Point(351, 55);
+            this.CmbSorumlu.Name = "CmbSorumlu";
+            this.CmbSorumlu.Size = new System.Drawing.Size(144, 37);
+            this.CmbSorumlu.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(251, 63);
+            this.label5.Location = new System.Drawing.Point(276, 63);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 19);
             this.label5.TabIndex = 10;
             this.label5.Text = "Sorumlu";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(72, 61);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(144, 33);
-            this.comboBox6.TabIndex = 9;
             // 
             // label6
             // 
@@ -166,24 +151,6 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Proje";
             // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(566, 55);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(144, 33);
-            this.comboBox7.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(492, 63);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 19);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Kullanıcı";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -194,21 +161,21 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "Oluşturma Tarihi";
             // 
-            // dateTimePicker1
+            // DtpOlusturmaTarih
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(129, 134);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 24);
-            this.dateTimePicker1.TabIndex = 15;
+            this.DtpOlusturmaTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
+            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(129, 134);
+            this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
+            this.DtpOlusturmaTarih.Size = new System.Drawing.Size(200, 24);
+            this.DtpOlusturmaTarih.TabIndex = 15;
             // 
-            // dateTimePicker2
+            // DtpGuncellemeTarih
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.dateTimePicker2.Location = new System.Drawing.Point(510, 134);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 24);
-            this.dateTimePicker2.TabIndex = 17;
+            this.DtpGuncellemeTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
+            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(510, 134);
+            this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
+            this.DtpGuncellemeTarih.Size = new System.Drawing.Size(200, 24);
+            this.DtpGuncellemeTarih.TabIndex = 17;
             // 
             // label9
             // 
@@ -220,13 +187,13 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "Güncelleme Tarihi";
             // 
-            // dateTimePicker3
+            // DtpTeslimTarih
             // 
-            this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.dateTimePicker3.Location = new System.Drawing.Point(855, 136);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 24);
-            this.dateTimePicker3.TabIndex = 19;
+            this.DtpTeslimTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
+            this.DtpTeslimTarih.Location = new System.Drawing.Point(855, 136);
+            this.DtpTeslimTarih.Name = "DtpTeslimTarih";
+            this.DtpTeslimTarih.Size = new System.Drawing.Size(200, 24);
+            this.DtpTeslimTarih.TabIndex = 19;
             // 
             // label10
             // 
@@ -257,52 +224,67 @@
             this.dataGridView1.Size = new System.Drawing.Size(1193, 462);
             this.dataGridView1.TabIndex = 0;
             // 
-            // button1
+            // BtnFiltrele
             // 
-            this.button1.Location = new System.Drawing.Point(855, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 34);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Filtrele";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnFiltrele.BackColor = System.Drawing.Color.SteelBlue;
+            this.BtnFiltrele.Location = new System.Drawing.Point(855, 175);
+            this.BtnFiltrele.Name = "BtnFiltrele";
+            this.BtnFiltrele.Size = new System.Drawing.Size(200, 34);
+            this.BtnFiltrele.TabIndex = 22;
+            this.BtnFiltrele.Text = "Filtrele";
+            this.BtnFiltrele.UseVisualStyleBackColor = false;
+            this.BtnFiltrele.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BtnGeriDön
             // 
-            this.button2.Location = new System.Drawing.Point(632, 175);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 34);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Geri Dön";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnGeriDön.BackColor = System.Drawing.Color.CadetBlue;
+            this.BtnGeriDön.Location = new System.Drawing.Point(632, 175);
+            this.BtnGeriDön.Name = "BtnGeriDön";
+            this.BtnGeriDön.Size = new System.Drawing.Size(200, 34);
+            this.BtnGeriDön.TabIndex = 23;
+            this.BtnGeriDön.Text = "Geri Dön";
+            this.BtnGeriDön.UseVisualStyleBackColor = false;
+            this.BtnGeriDön.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // TxtBaslik
+            // 
+            this.TxtBaslik.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.TxtBaslik.Location = new System.Drawing.Point(623, 12);
+            this.TxtBaslik.Name = "TxtBaslik";
+            this.TxtBaslik.Size = new System.Drawing.Size(144, 37);
+            this.TxtBaslik.TabIndex = 24;
+            // 
+            // TxtProje
+            // 
+            this.TxtProje.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.TxtProje.Location = new System.Drawing.Point(72, 61);
+            this.TxtProje.Name = "TxtProje";
+            this.TxtProje.Size = new System.Drawing.Size(144, 37);
+            this.TxtProje.TabIndex = 25;
             // 
             // FrmIsFiltreleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1224, 720);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.TxtProje);
+            this.Controls.Add(this.TxtBaslik);
+            this.Controls.Add(this.BtnGeriDön);
+            this.Controls.Add(this.BtnFiltrele);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.DtpTeslimTarih);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.DtpGuncellemeTarih);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.DtpOlusturmaTarih);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox7);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.CmbSorumlu);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.CmbIsTipi);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CmbDurum);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -311,7 +293,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmIsFiltreleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmIsFiltreleme";
+            this.Text = "İş Filtreleme";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -322,28 +304,24 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox CmbDurum;
+        private System.Windows.Forms.ComboBox CmbIsTipi;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox CmbSorumlu;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DtpOlusturmaTarih;
+        private System.Windows.Forms.DateTimePicker DtpGuncellemeTarih;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker DtpTeslimTarih;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnFiltrele;
+        private System.Windows.Forms.Button BtnGeriDön;
+        private System.Windows.Forms.TextBox TxtBaslik;
+        private System.Windows.Forms.TextBox TxtProje;
     }
 }

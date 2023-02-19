@@ -90,24 +90,26 @@
             // 
             // BtnListele
             // 
+            this.BtnListele.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnListele.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnListele.Location = new System.Drawing.Point(6, 242);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(197, 29);
             this.BtnListele.TabIndex = 7;
-            this.BtnListele.Text = "Listele";
-            this.BtnListele.UseVisualStyleBackColor = true;
+            this.BtnListele.Text = "Güncelle";
+            this.BtnListele.UseVisualStyleBackColor = false;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
             // BtnFiltreleme
             // 
+            this.BtnFiltreleme.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnFiltreleme.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnFiltreleme.Location = new System.Drawing.Point(6, 312);
             this.BtnFiltreleme.Name = "BtnFiltreleme";
             this.BtnFiltreleme.Size = new System.Drawing.Size(197, 29);
             this.BtnFiltreleme.TabIndex = 6;
             this.BtnFiltreleme.Text = "Filtreleme";
-            this.BtnFiltreleme.UseVisualStyleBackColor = true;
+            this.BtnFiltreleme.UseVisualStyleBackColor = false;
             this.BtnFiltreleme.Click += new System.EventHandler(this.BtnFiltreleme_Click);
             // 
             // label3
@@ -138,34 +140,37 @@
             // 
             // BtnSilme
             // 
+            this.BtnSilme.BackColor = System.Drawing.Color.IndianRed;
             this.BtnSilme.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnSilme.Location = new System.Drawing.Point(6, 382);
             this.BtnSilme.Name = "BtnSilme";
             this.BtnSilme.Size = new System.Drawing.Size(197, 29);
             this.BtnSilme.TabIndex = 2;
             this.BtnSilme.Text = "Silme";
-            this.BtnSilme.UseVisualStyleBackColor = true;
+            this.BtnSilme.UseVisualStyleBackColor = false;
             this.BtnSilme.Click += new System.EventHandler(this.BtnSilme_Click);
             // 
             // BtnDuzenle
             // 
+            this.BtnDuzenle.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnDuzenle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnDuzenle.Location = new System.Drawing.Point(6, 347);
             this.BtnDuzenle.Name = "BtnDuzenle";
             this.BtnDuzenle.Size = new System.Drawing.Size(197, 29);
             this.BtnDuzenle.TabIndex = 1;
             this.BtnDuzenle.Text = "Düzenle";
-            this.BtnDuzenle.UseVisualStyleBackColor = true;
+            this.BtnDuzenle.UseVisualStyleBackColor = false;
             // 
             // BtnTanımlama
             // 
+            this.BtnTanımlama.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnTanımlama.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnTanımlama.Location = new System.Drawing.Point(6, 277);
             this.BtnTanımlama.Name = "BtnTanımlama";
             this.BtnTanımlama.Size = new System.Drawing.Size(197, 29);
             this.BtnTanımlama.TabIndex = 0;
             this.BtnTanımlama.Text = "Tanımla";
-            this.BtnTanımlama.UseVisualStyleBackColor = true;
+            this.BtnTanımlama.UseVisualStyleBackColor = false;
             this.BtnTanımlama.Click += new System.EventHandler(this.button1_Click);
             // 
             // Frmİslem

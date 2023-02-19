@@ -91,7 +91,7 @@
             // 
             // BtnListeGüncelle
             // 
-            this.BtnListeGüncelle.BackColor = System.Drawing.Color.IndianRed;
+            this.BtnListeGüncelle.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnListeGüncelle.Location = new System.Drawing.Point(74, 110);
             this.BtnListeGüncelle.Name = "BtnListeGüncelle";
             this.BtnListeGüncelle.Size = new System.Drawing.Size(279, 31);
@@ -102,7 +102,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.BackColor = System.Drawing.Color.CadetBlue;
             this.button2.Location = new System.Drawing.Point(74, 147);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(279, 31);
@@ -130,7 +130,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmSilme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmSilme";
+            this.Text = "İşlem Silme";
             this.Load += new System.EventHandler(this.FrmSilme_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

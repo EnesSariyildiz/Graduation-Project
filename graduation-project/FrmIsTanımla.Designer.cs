@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 155);
+            this.label1.Location = new System.Drawing.Point(48, 129);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 29);
             this.label1.TabIndex = 0;
@@ -66,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 207);
+            this.label2.Location = new System.Drawing.Point(57, 181);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 29);
             this.label2.TabIndex = 1;
@@ -75,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(374, 155);
+            this.label3.Location = new System.Drawing.Point(374, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 29);
             this.label3.TabIndex = 2;
@@ -84,7 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(764, 211);
+            this.label4.Location = new System.Drawing.Point(764, 185);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 29);
             this.label4.TabIndex = 3;
@@ -93,7 +93,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(374, 207);
+            this.label5.Location = new System.Drawing.Point(374, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 29);
             this.label5.TabIndex = 4;
@@ -102,7 +102,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(695, 152);
+            this.label6.Location = new System.Drawing.Point(695, 126);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(159, 29);
             this.label6.TabIndex = 5;
@@ -111,7 +111,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(291, 269);
+            this.label7.Location = new System.Drawing.Point(291, 243);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(151, 29);
             this.label7.TabIndex = 6;
@@ -120,7 +120,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(279, 325);
+            this.label8.Location = new System.Drawing.Point(279, 299);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(163, 29);
             this.label8.TabIndex = 7;
@@ -129,7 +129,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(323, 377);
+            this.label9.Location = new System.Drawing.Point(323, 351);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 29);
             this.label9.TabIndex = 8;
@@ -160,45 +160,49 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1151, 645);
+            this.groupBox1.Size = new System.Drawing.Size(1151, 599);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "İş Tanımlama";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // BtnTemizle
             // 
-            this.BtnTemizle.Location = new System.Drawing.Point(448, 475);
+            this.BtnTemizle.BackColor = System.Drawing.Color.IndianRed;
+            this.BtnTemizle.Location = new System.Drawing.Point(448, 449);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(224, 40);
             this.BtnTemizle.TabIndex = 20;
             this.BtnTemizle.Text = "Temizle";
-            this.BtnTemizle.UseVisualStyleBackColor = true;
+            this.BtnTemizle.UseVisualStyleBackColor = false;
             this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
             // BtnIslemDon
             // 
-            this.BtnIslemDon.Location = new System.Drawing.Point(448, 521);
+            this.BtnIslemDon.BackColor = System.Drawing.Color.CadetBlue;
+            this.BtnIslemDon.Location = new System.Drawing.Point(448, 495);
             this.BtnIslemDon.Name = "BtnIslemDon";
             this.BtnIslemDon.Size = new System.Drawing.Size(224, 40);
             this.BtnIslemDon.TabIndex = 19;
-            this.BtnIslemDon.Text = "İşlem Sayfasına Dön";
-            this.BtnIslemDon.UseVisualStyleBackColor = true;
+            this.BtnIslemDon.Text = "Geri Dön";
+            this.BtnIslemDon.UseVisualStyleBackColor = false;
             this.BtnIslemDon.Click += new System.EventHandler(this.BtnIslemDon_Click);
             // 
             // BtnTanımla
             // 
-            this.BtnTanımla.Location = new System.Drawing.Point(448, 428);
+            this.BtnTanımla.BackColor = System.Drawing.Color.SteelBlue;
+            this.BtnTanımla.Location = new System.Drawing.Point(448, 402);
             this.BtnTanımla.Name = "BtnTanımla";
             this.BtnTanımla.Size = new System.Drawing.Size(224, 41);
             this.BtnTanımla.TabIndex = 18;
             this.BtnTanımla.Text = "Tanımla";
-            this.BtnTanımla.UseVisualStyleBackColor = true;
+            this.BtnTanımla.UseVisualStyleBackColor = false;
             this.BtnTanımla.Click += new System.EventHandler(this.BtnTanımla_Click);
             // 
             // DtpTeslimTarih
             // 
             this.DtpTeslimTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 377);
+            this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 351);
             this.DtpTeslimTarih.Name = "DtpTeslimTarih";
             this.DtpTeslimTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpTeslimTarih.TabIndex = 17;
@@ -206,7 +210,7 @@
             // DtpGuncellemeTarih
             // 
             this.DtpGuncellemeTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 317);
+            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 291);
             this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
             this.DtpGuncellemeTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpGuncellemeTarih.TabIndex = 16;
@@ -214,16 +218,17 @@
             // DtpOlusturmaTarih
             // 
             this.DtpOlusturmaTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 263);
+            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 237);
             this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
             this.DtpOlusturmaTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpOlusturmaTarih.TabIndex = 15;
+            this.DtpOlusturmaTarih.ValueChanged += new System.EventHandler(this.DtpOlusturmaTarih_ValueChanged);
             // 
             // RchAciklama
             // 
-            this.RchAciklama.Location = new System.Drawing.Point(860, 211);
+            this.RchAciklama.Location = new System.Drawing.Point(860, 185);
             this.RchAciklama.Name = "RchAciklama";
-            this.RchAciklama.Size = new System.Drawing.Size(224, 311);
+            this.RchAciklama.Size = new System.Drawing.Size(224, 350);
             this.RchAciklama.TabIndex = 14;
             this.RchAciklama.Text = "";
             // 
@@ -239,21 +244,21 @@
             "Altay Köse",
             "Burçin Koçyigit",
             "Doruk Öztürk"});
-            this.CmbSorumlu.Location = new System.Drawing.Point(860, 149);
+            this.CmbSorumlu.Location = new System.Drawing.Point(860, 123);
             this.CmbSorumlu.Name = "CmbSorumlu";
             this.CmbSorumlu.Size = new System.Drawing.Size(224, 37);
             this.CmbSorumlu.TabIndex = 13;
             // 
             // TxtProje
             // 
-            this.TxtProje.Location = new System.Drawing.Point(448, 203);
+            this.TxtProje.Location = new System.Drawing.Point(448, 177);
             this.TxtProje.Name = "TxtProje";
             this.TxtProje.Size = new System.Drawing.Size(224, 37);
             this.TxtProje.TabIndex = 12;
             // 
             // TxtBaslik
             // 
-            this.TxtBaslik.Location = new System.Drawing.Point(448, 152);
+            this.TxtBaslik.Location = new System.Drawing.Point(448, 126);
             this.TxtBaslik.Name = "TxtBaslik";
             this.TxtBaslik.Size = new System.Drawing.Size(224, 37);
             this.TxtBaslik.TabIndex = 11;
@@ -265,7 +270,7 @@
             "Soru",
             "Hata",
             "Geliştirme"});
-            this.CmbIsTipi.Location = new System.Drawing.Point(127, 203);
+            this.CmbIsTipi.Location = new System.Drawing.Point(127, 177);
             this.CmbIsTipi.Name = "CmbIsTipi";
             this.CmbIsTipi.Size = new System.Drawing.Size(224, 37);
             this.CmbIsTipi.TabIndex = 10;
@@ -274,13 +279,13 @@
             // 
             this.CmbDurum.FormattingEnabled = true;
             this.CmbDurum.Items.AddRange(new object[] {
-            "Yeni",
             "Test",
+            "Yeni",
             "Canlı",
             "Analiz",
             "Geliştirme",
             "Müşteri Testi"});
-            this.CmbDurum.Location = new System.Drawing.Point(127, 155);
+            this.CmbDurum.Location = new System.Drawing.Point(127, 129);
             this.CmbDurum.Name = "CmbDurum";
             this.CmbDurum.Size = new System.Drawing.Size(224, 37);
             this.CmbDurum.TabIndex = 9;
@@ -290,7 +295,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1178, 674);
+            this.ClientSize = new System.Drawing.Size(1178, 644);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
