@@ -33,9 +33,13 @@ namespace graduation_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi", bgl.baglanti());
+            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi and Baslik=@baslik and Aciklama =@aciklama and Proje=@proje and SorumluKullanici=@sorumluKullanici ", bgl.baglanti());
             komutFiltrele.Parameters.AddWithValue("@durum", CmbDurum.SelectedItem.ToString());
             komutFiltrele.Parameters.AddWithValue("@isTipi", CmbIsTipi.SelectedItem.ToString());
+            komutFiltrele.Parameters.AddWithValue("@baslik",TxtBaslik.Text.ToString());
+            komutFiltrele.Parameters.AddWithValue("@aciklama", TxtAciklama.Text.ToString());
+            komutFiltrele.Parameters.AddWithValue("@proje", TxtProje.Text.ToString());
+            komutFiltrele.Parameters.AddWithValue("@sorumluKullanici", CmbSorumlu.Text.ToString());
             SqlDataAdapter adapter = new SqlDataAdapter(komutFiltrele);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
@@ -44,6 +48,14 @@ namespace graduation_project
         }
 
         private void FrmIsFiltreleme_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void BtnListeyiGuncelle_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());

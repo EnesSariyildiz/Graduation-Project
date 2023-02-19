@@ -30,13 +30,11 @@ namespace graduation_project
 
         private void BtnKaydıSil_Click(object sender, EventArgs e)
         {
-            //string queryDelete = "DELETE FROM Tbl_Isler WHERE Id = @ID";
-            //SqlCommand commandDelete = new SqlCommand(queryDelete, bgl.baglanti());
-            SqlCommand commandDelete = new SqlCommand("DELETE FROM Tbl_Isler WHERE Id = @ID", bgl.baglanti());
-            commandDelete.Parameters.AddWithValue("@ID", TxtId.Text);
-            commandDelete.ExecuteNonQuery();
-            bgl.baglanti().Close();
 
+            SqlCommand komutSilme = new SqlCommand("DELETE FROM Tbl_Isler WHERE Id = @ID", bgl.baglanti());
+            komutSilme.Parameters.AddWithValue("@ID", TxtId.Text);
+            komutSilme.ExecuteNonQuery();
+            bgl.baglanti().Close();
             MessageBox.Show("Kayıt silinidi!", "Uyarı");
         }
 

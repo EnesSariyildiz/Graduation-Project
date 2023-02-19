@@ -49,6 +49,9 @@
             this.BtnGeriDön = new System.Windows.Forms.Button();
             this.TxtBaslik = new System.Windows.Forms.TextBox();
             this.TxtProje = new System.Windows.Forms.TextBox();
+            this.BtnListeyiGuncelle = new System.Windows.Forms.Button();
+            this.TxtAciklama = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -238,7 +241,7 @@
             // BtnGeriDön
             // 
             this.BtnGeriDön.BackColor = System.Drawing.Color.CadetBlue;
-            this.BtnGeriDön.Location = new System.Drawing.Point(632, 175);
+            this.BtnGeriDön.Location = new System.Drawing.Point(129, 175);
             this.BtnGeriDön.Name = "BtnGeriDön";
             this.BtnGeriDön.Size = new System.Drawing.Size(200, 34);
             this.BtnGeriDön.TabIndex = 23;
@@ -249,7 +252,7 @@
             // TxtBaslik
             // 
             this.TxtBaslik.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
-            this.TxtBaslik.Location = new System.Drawing.Point(623, 12);
+            this.TxtBaslik.Location = new System.Drawing.Point(644, 12);
             this.TxtBaslik.Name = "TxtBaslik";
             this.TxtBaslik.Size = new System.Drawing.Size(144, 37);
             this.TxtBaslik.TabIndex = 24;
@@ -262,11 +265,43 @@
             this.TxtProje.Size = new System.Drawing.Size(144, 37);
             this.TxtProje.TabIndex = 25;
             // 
+            // BtnListeyiGuncelle
+            // 
+            this.BtnListeyiGuncelle.BackColor = System.Drawing.Color.SteelBlue;
+            this.BtnListeyiGuncelle.Location = new System.Drawing.Point(510, 175);
+            this.BtnListeyiGuncelle.Name = "BtnListeyiGuncelle";
+            this.BtnListeyiGuncelle.Size = new System.Drawing.Size(200, 34);
+            this.BtnListeyiGuncelle.TabIndex = 26;
+            this.BtnListeyiGuncelle.Text = "Listeyi Güncelle";
+            this.BtnListeyiGuncelle.UseVisualStyleBackColor = false;
+            this.BtnListeyiGuncelle.Click += new System.EventHandler(this.BtnListeyiGuncelle_Click);
+            // 
+            // TxtAciklama
+            // 
+            this.TxtAciklama.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
+            this.TxtAciklama.Location = new System.Drawing.Point(644, 61);
+            this.TxtAciklama.Name = "TxtAciklama";
+            this.TxtAciklama.Size = new System.Drawing.Size(144, 37);
+            this.TxtAciklama.TabIndex = 28;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(574, 71);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 19);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Açıklama";
+            // 
             // FrmIsFiltreleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1224, 720);
+            this.Controls.Add(this.TxtAciklama);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.BtnListeyiGuncelle);
             this.Controls.Add(this.TxtProje);
             this.Controls.Add(this.TxtBaslik);
             this.Controls.Add(this.BtnGeriDön);
@@ -324,5 +359,8 @@
         private System.Windows.Forms.Button BtnGeriDön;
         private System.Windows.Forms.TextBox TxtBaslik;
         private System.Windows.Forms.TextBox TxtProje;
+        private System.Windows.Forms.Button BtnListeyiGuncelle;
+        private System.Windows.Forms.TextBox TxtAciklama;
+        private System.Windows.Forms.Label label3;
     }
 }
