@@ -75,5 +75,10 @@ namespace graduation_project
         {
 
         }
+
+        private void FrmIsTanımla_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

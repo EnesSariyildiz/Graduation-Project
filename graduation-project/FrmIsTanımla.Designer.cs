@@ -305,6 +305,7 @@
             this.Name = "FrmIsTanımla";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İş Tanımlama";
+            this.Load += new System.EventHandler(this.FrmIsTanımla_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

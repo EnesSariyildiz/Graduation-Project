@@ -294,6 +294,7 @@
             this.Name = "FrmIsFiltreleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İş Filtreleme";
+            this.Load += new System.EventHandler(this.FrmIsFiltreleme_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
