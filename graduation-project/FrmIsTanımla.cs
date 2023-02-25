@@ -40,9 +40,9 @@ namespace graduation_project
             komut.Parameters.AddWithValue("@p4", RchAciklama.Text);
             komut.Parameters.AddWithValue("@p5", TxtProje.Text);
             komut.Parameters.AddWithValue("@p6", CmbSorumlu.Text);
-            komut.Parameters.AddWithValue("@p7", DtpOlusturmaTarih.MinDate);
-            komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.MinDate);
-            komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.MinDate);
+            komut.Parameters.AddWithValue("@p7", DtpOlusturmaTarih.Value);
+            komut.Parameters.AddWithValue("@p8", DtpGuncellemeTarih.Value);
+            komut.Parameters.AddWithValue("@p9", DtpTeslimTarih.Value);
 
             komut.ExecuteNonQuery();
             //Executenonquery = sorguyu çalıştır.

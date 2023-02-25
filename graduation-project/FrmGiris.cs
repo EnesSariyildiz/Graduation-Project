@@ -20,7 +20,6 @@ namespace graduation_project
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             Frmİslem fr = new Frmİslem();
-            //Proje sonunda bu if bloğu açılacak.
             if (TxtId.Text == "admin" && TxtPassword.Text == "1234")
             {
 

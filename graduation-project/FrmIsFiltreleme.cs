@@ -33,12 +33,15 @@ namespace graduation_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi and Baslik=@baslik and Proje=@proje and SorumluKullanici=@sorumluKullanici ", bgl.baglanti());
+            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi and Baslik=@baslik and Proje=@proje and SorumluKullanici=@sorumluKullanici and OlusturmaTarihi=@olusturmaTarihi and GuncellemeTarihi=@guncellemeTarihi and TeslimTarihi=@teslimTarihi ", bgl.baglanti());
             komutFiltrele.Parameters.AddWithValue("@durum", CmbDurum.SelectedItem.ToString());
             komutFiltrele.Parameters.AddWithValue("@isTipi", CmbIsTipi.SelectedItem.ToString());
             komutFiltrele.Parameters.AddWithValue("@baslik",TxtBaslik.Text.ToString());
             komutFiltrele.Parameters.AddWithValue("@proje", TxtProje.Text.ToString());
             komutFiltrele.Parameters.AddWithValue("@sorumluKullanici", CmbSorumlu.Text.ToString());
+            komutFiltrele.Parameters.AddWithValue("olusturmaTarihi",DtpOlusturmaTarih.Value);
+            komutFiltrele.Parameters.AddWithValue("guncellemeTarihi",DtpGuncellemeTarih.Value);
+            komutFiltrele.Parameters.AddWithValue("teslimTarihi",DtpTeslimTarih.Value);
             SqlDataAdapter adapter = new SqlDataAdapter(komutFiltrele);
             DataTable dt = new DataTable();
             adapter.Fill(dt);

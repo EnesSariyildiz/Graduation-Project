@@ -54,5 +54,10 @@ namespace graduation_project
 
             MessageBox.Show("Kayıt listeleri güncellendi!");
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

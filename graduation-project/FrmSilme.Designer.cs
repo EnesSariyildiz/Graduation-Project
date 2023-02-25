@@ -43,14 +43,15 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Location = new System.Drawing.Point(14, 241);
+            this.groupBox1.Location = new System.Drawing.Point(14, 92);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(1241, 327);
+            this.groupBox1.Size = new System.Drawing.Size(1085, 432);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Kayıtlar";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dataGridView1
             // 
@@ -58,7 +59,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(5, 26);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1231, 296);
+            this.dataGridView1.Size = new System.Drawing.Size(1075, 401);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -75,15 +76,15 @@
             // 
             this.TxtId.Location = new System.Drawing.Point(74, 39);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(279, 28);
+            this.TxtId.Size = new System.Drawing.Size(196, 28);
             this.TxtId.TabIndex = 2;
             // 
             // BtnKaydıSil
             // 
             this.BtnKaydıSil.BackColor = System.Drawing.Color.IndianRed;
-            this.BtnKaydıSil.Location = new System.Drawing.Point(74, 73);
+            this.BtnKaydıSil.Location = new System.Drawing.Point(276, 39);
             this.BtnKaydıSil.Name = "BtnKaydıSil";
-            this.BtnKaydıSil.Size = new System.Drawing.Size(279, 31);
+            this.BtnKaydıSil.Size = new System.Drawing.Size(196, 31);
             this.BtnKaydıSil.TabIndex = 3;
             this.BtnKaydıSil.Text = "Kaydı Sil";
             this.BtnKaydıSil.UseVisualStyleBackColor = false;
@@ -92,9 +93,9 @@
             // BtnListeGüncelle
             // 
             this.BtnListeGüncelle.BackColor = System.Drawing.Color.SteelBlue;
-            this.BtnListeGüncelle.Location = new System.Drawing.Point(74, 110);
+            this.BtnListeGüncelle.Location = new System.Drawing.Point(478, 39);
             this.BtnListeGüncelle.Name = "BtnListeGüncelle";
-            this.BtnListeGüncelle.Size = new System.Drawing.Size(279, 31);
+            this.BtnListeGüncelle.Size = new System.Drawing.Size(196, 31);
             this.BtnListeGüncelle.TabIndex = 4;
             this.BtnListeGüncelle.Text = "Listeyi Güncelle";
             this.BtnListeGüncelle.UseVisualStyleBackColor = false;
@@ -103,9 +104,9 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.CadetBlue;
-            this.button2.Location = new System.Drawing.Point(74, 147);
+            this.button2.Location = new System.Drawing.Point(680, 39);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(279, 31);
+            this.button2.Size = new System.Drawing.Size(196, 31);
             this.button2.TabIndex = 5;
             this.button2.Text = "Geri Dön";
             this.button2.UseVisualStyleBackColor = false;
@@ -115,8 +116,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateGray;
-            this.ClientSize = new System.Drawing.Size(1269, 582);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(1113, 538);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnListeGüncelle);
             this.Controls.Add(this.BtnKaydıSil);
