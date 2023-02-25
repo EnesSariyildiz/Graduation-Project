@@ -21,14 +21,30 @@ namespace graduation_project
         {
             Frmİslem fr = new Frmİslem();
             //Proje sonunda bu if bloğu açılacak.
-            //if (TxtId.Text == "admin" &&  TxtPassword.Text=="1234")
-            //{
-                
-            //    fr.Show();
-            //    this.Hide();
-            //}
+            if (TxtId.Text == "admin" && TxtPassword.Text == "1234")
+            {
+
+                fr.Show();
+                this.Hide();
+            }
             fr.Show();
             this.Hide();
+        }
+
+        private void ChkRememberMe_CheckedChanged(object sender, EventArgs e)
+        {
+            switch (ChkRememberMe.Checked)
+            {
+                case true:
+                    TxtId.Text = "admin";
+                    TxtPassword.Text = "1234";
+                    break;
+                default:
+                    TxtId.Text = "";
+                    TxtPassword.Text = "";
+                    break;
+            }
+
         }
     }
 }
