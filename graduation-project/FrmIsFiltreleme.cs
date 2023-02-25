@@ -33,11 +33,10 @@ namespace graduation_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi and Baslik=@baslik and Aciklama =@aciklama and Proje=@proje and SorumluKullanici=@sorumluKullanici ", bgl.baglanti());
+            SqlCommand komutFiltrele = new SqlCommand("SELECT * FROM Tbl_Isler WHERE Durum = @durum and IsTipi=@isTipi and Baslik=@baslik and Proje=@proje and SorumluKullanici=@sorumluKullanici ", bgl.baglanti());
             komutFiltrele.Parameters.AddWithValue("@durum", CmbDurum.SelectedItem.ToString());
             komutFiltrele.Parameters.AddWithValue("@isTipi", CmbIsTipi.SelectedItem.ToString());
             komutFiltrele.Parameters.AddWithValue("@baslik",TxtBaslik.Text.ToString());
-            komutFiltrele.Parameters.AddWithValue("@aciklama", TxtAciklama.Text.ToString());
             komutFiltrele.Parameters.AddWithValue("@proje", TxtProje.Text.ToString());
             komutFiltrele.Parameters.AddWithValue("@sorumluKullanici", CmbSorumlu.Text.ToString());
             SqlDataAdapter adapter = new SqlDataAdapter(komutFiltrele);
