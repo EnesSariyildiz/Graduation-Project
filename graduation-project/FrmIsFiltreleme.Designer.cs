@@ -58,6 +58,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(16, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 19);
@@ -98,6 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(205, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 19);
@@ -108,6 +110,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(404, 39);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 19);
@@ -136,6 +139,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label5.Location = new System.Drawing.Point(808, 39);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 19);
@@ -146,6 +150,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label6.Location = new System.Drawing.Point(609, 39);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 19);
@@ -156,7 +161,8 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(42, 87);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label8.Location = new System.Drawing.Point(34, 88);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 19);
             this.label8.TabIndex = 14;
@@ -182,7 +188,8 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(388, 87);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label9.Location = new System.Drawing.Point(374, 89);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(118, 19);
             this.label9.TabIndex = 16;
@@ -200,6 +207,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label10.Location = new System.Drawing.Point(702, 89);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(84, 19);
@@ -214,7 +222,6 @@
             this.groupBox1.Size = new System.Drawing.Size(1090, 348);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Kayıtlar";
             // 
             // dataGridView1
             // 
@@ -227,10 +234,11 @@
             // 
             // BtnFiltrele
             // 
-            this.BtnFiltrele.BackColor = System.Drawing.Color.SteelBlue;
-            this.BtnFiltrele.Location = new System.Drawing.Point(789, 135);
+            this.BtnFiltrele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnFiltrele.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnFiltrele.Location = new System.Drawing.Point(672, 134);
             this.BtnFiltrele.Name = "BtnFiltrele";
-            this.BtnFiltrele.Size = new System.Drawing.Size(182, 29);
+            this.BtnFiltrele.Size = new System.Drawing.Size(224, 41);
             this.BtnFiltrele.TabIndex = 22;
             this.BtnFiltrele.Text = "Filtrele";
             this.BtnFiltrele.UseVisualStyleBackColor = false;
@@ -238,10 +246,11 @@
             // 
             // BtnGeriDön
             // 
-            this.BtnGeriDön.BackColor = System.Drawing.Color.CadetBlue;
-            this.BtnGeriDön.Location = new System.Drawing.Point(129, 135);
+            this.BtnGeriDön.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnGeriDön.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnGeriDön.Location = new System.Drawing.Point(209, 134);
             this.BtnGeriDön.Name = "BtnGeriDön";
-            this.BtnGeriDön.Size = new System.Drawing.Size(182, 29);
+            this.BtnGeriDön.Size = new System.Drawing.Size(224, 41);
             this.BtnGeriDön.TabIndex = 23;
             this.BtnGeriDön.Text = "Geri Dön";
             this.BtnGeriDön.UseVisualStyleBackColor = false;
@@ -265,10 +274,11 @@
             // 
             // BtnListeyiGuncelle
             // 
-            this.BtnListeyiGuncelle.BackColor = System.Drawing.Color.SteelBlue;
-            this.BtnListeyiGuncelle.Location = new System.Drawing.Point(475, 135);
+            this.BtnListeyiGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnListeyiGuncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnListeyiGuncelle.Location = new System.Drawing.Point(439, 134);
             this.BtnListeyiGuncelle.Name = "BtnListeyiGuncelle";
-            this.BtnListeyiGuncelle.Size = new System.Drawing.Size(182, 29);
+            this.BtnListeyiGuncelle.Size = new System.Drawing.Size(224, 41);
             this.BtnListeyiGuncelle.TabIndex = 26;
             this.BtnListeyiGuncelle.Text = "Listeyi Güncelle";
             this.BtnListeyiGuncelle.UseVisualStyleBackColor = false;
@@ -278,7 +288,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(1113, 538);
             this.Controls.Add(this.BtnListeyiGuncelle);
             this.Controls.Add(this.TxtProje);
@@ -303,7 +313,7 @@
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.Name = "FrmIsFiltreleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

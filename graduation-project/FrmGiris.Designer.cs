@@ -35,7 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BtnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.LnkNewUser = new System.Windows.Forms.LinkLabel();
             this.ChkRememberMe = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -43,6 +42,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(163, 361);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
@@ -69,6 +69,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(163, 425);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
@@ -78,9 +79,9 @@
             // 
             // BtnLogin
             // 
-            this.BtnLogin.BackColor = System.Drawing.Color.CadetBlue;
-            this.BtnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnLogin.Location = new System.Drawing.Point(168, 512);
+            this.BtnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnLogin.Location = new System.Drawing.Point(168, 509);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(290, 35);
             this.BtnLogin.TabIndex = 4;
@@ -91,30 +92,17 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(168, 90);
+            this.pictureBox1.Location = new System.Drawing.Point(168, 42);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(290, 238);
+            this.pictureBox1.Size = new System.Drawing.Size(290, 286);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // LnkNewUser
-            // 
-            this.LnkNewUser.ActiveLinkColor = System.Drawing.Color.CadetBlue;
-            this.LnkNewUser.AutoSize = true;
-            this.LnkNewUser.DisabledLinkColor = System.Drawing.Color.CadetBlue;
-            this.LnkNewUser.LinkColor = System.Drawing.Color.CadetBlue;
-            this.LnkNewUser.Location = new System.Drawing.Point(354, 550);
-            this.LnkNewUser.Name = "LnkNewUser";
-            this.LnkNewUser.Size = new System.Drawing.Size(104, 25);
-            this.LnkNewUser.TabIndex = 6;
-            this.LnkNewUser.TabStop = true;
-            this.LnkNewUser.Text = "new user?";
-            // 
             // ChkRememberMe
             // 
             this.ChkRememberMe.AutoSize = true;
-            this.ChkRememberMe.ForeColor = System.Drawing.Color.CadetBlue;
+            this.ChkRememberMe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.ChkRememberMe.Location = new System.Drawing.Point(168, 550);
             this.ChkRememberMe.Name = "ChkRememberMe";
             this.ChkRememberMe.Size = new System.Drawing.Size(166, 29);
@@ -127,10 +115,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(631, 647);
             this.Controls.Add(this.ChkRememberMe);
-            this.Controls.Add(this.LnkNewUser);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.TxtPassword);
@@ -160,7 +147,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.LinkLabel LnkNewUser;
         private System.Windows.Forms.CheckBox ChkRememberMe;
     }
 }

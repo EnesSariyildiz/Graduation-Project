@@ -57,7 +57,6 @@
             this.groupBox1.Size = new System.Drawing.Size(1050, 422);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "İş Takip";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dataGridView1
@@ -129,6 +128,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(14, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 21);
@@ -138,6 +138,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(14, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 21);

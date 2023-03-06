@@ -65,6 +65,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(30, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
@@ -76,15 +77,15 @@
             // 
             this.TxtId.Location = new System.Drawing.Point(74, 39);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(196, 28);
+            this.TxtId.Size = new System.Drawing.Size(224, 28);
             this.TxtId.TabIndex = 2;
             // 
             // BtnKaydıSil
             // 
             this.BtnKaydıSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
-            this.BtnKaydıSil.Location = new System.Drawing.Point(276, 39);
+            this.BtnKaydıSil.Location = new System.Drawing.Point(316, 32);
             this.BtnKaydıSil.Name = "BtnKaydıSil";
-            this.BtnKaydıSil.Size = new System.Drawing.Size(196, 31);
+            this.BtnKaydıSil.Size = new System.Drawing.Size(224, 41);
             this.BtnKaydıSil.TabIndex = 3;
             this.BtnKaydıSil.Text = "Kaydı Sil";
             this.BtnKaydıSil.UseVisualStyleBackColor = false;
@@ -92,10 +93,11 @@
             // 
             // BtnListeGüncelle
             // 
-            this.BtnListeGüncelle.BackColor = System.Drawing.Color.SteelBlue;
-            this.BtnListeGüncelle.Location = new System.Drawing.Point(478, 39);
+            this.BtnListeGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnListeGüncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnListeGüncelle.Location = new System.Drawing.Point(546, 32);
             this.BtnListeGüncelle.Name = "BtnListeGüncelle";
-            this.BtnListeGüncelle.Size = new System.Drawing.Size(196, 31);
+            this.BtnListeGüncelle.Size = new System.Drawing.Size(224, 41);
             this.BtnListeGüncelle.TabIndex = 4;
             this.BtnListeGüncelle.Text = "Listeyi Güncelle";
             this.BtnListeGüncelle.UseVisualStyleBackColor = false;
@@ -103,10 +105,11 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.CadetBlue;
-            this.button2.Location = new System.Drawing.Point(680, 39);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.button2.Location = new System.Drawing.Point(776, 32);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(196, 31);
+            this.button2.Size = new System.Drawing.Size(224, 41);
             this.button2.TabIndex = 5;
             this.button2.Text = "Geri Dön";
             this.button2.UseVisualStyleBackColor = false;

@@ -38,7 +38,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnTemizle = new System.Windows.Forms.Button();
             this.BtnIslemDon = new System.Windows.Forms.Button();
             this.BtnTanımla = new System.Windows.Forms.Button();
@@ -51,13 +50,13 @@
             this.TxtBaslik = new System.Windows.Forms.TextBox();
             this.CmbIsTipi = new System.Windows.Forms.ComboBox();
             this.CmbDurum = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 129);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(94, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 29);
             this.label1.TabIndex = 0;
@@ -66,7 +65,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 181);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label2.Location = new System.Drawing.Point(509, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 29);
             this.label2.TabIndex = 1;
@@ -75,7 +75,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(374, 129);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label3.Location = new System.Drawing.Point(103, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 29);
             this.label3.TabIndex = 2;
@@ -84,7 +85,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(764, 185);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label4.Location = new System.Drawing.Point(80, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 29);
             this.label4.TabIndex = 3;
@@ -93,7 +95,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(374, 181);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label5.Location = new System.Drawing.Point(871, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 29);
             this.label5.TabIndex = 4;
@@ -102,16 +105,18 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(695, 126);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label6.Location = new System.Drawing.Point(470, 140);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(159, 29);
+            this.label6.Size = new System.Drawing.Size(103, 29);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Sorumlu Kullanıcı:";
+            this.label6.Text = "S. Kullanıcı:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(291, 243);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label7.Location = new System.Drawing.Point(19, 67);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(151, 29);
             this.label7.TabIndex = 6;
@@ -120,7 +125,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(279, 299);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label8.Location = new System.Drawing.Point(410, 69);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(163, 29);
             this.label8.TabIndex = 7;
@@ -129,49 +135,19 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(323, 351);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label9.Location = new System.Drawing.Point(814, 70);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 29);
             this.label9.TabIndex = 8;
             this.label9.Text = "Teslim Tarihi:";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.BtnTemizle);
-            this.groupBox1.Controls.Add(this.BtnIslemDon);
-            this.groupBox1.Controls.Add(this.BtnTanımla);
-            this.groupBox1.Controls.Add(this.DtpTeslimTarih);
-            this.groupBox1.Controls.Add(this.DtpGuncellemeTarih);
-            this.groupBox1.Controls.Add(this.DtpOlusturmaTarih);
-            this.groupBox1.Controls.Add(this.RchAciklama);
-            this.groupBox1.Controls.Add(this.CmbSorumlu);
-            this.groupBox1.Controls.Add(this.TxtProje);
-            this.groupBox1.Controls.Add(this.TxtBaslik);
-            this.groupBox1.Controls.Add(this.CmbIsTipi);
-            this.groupBox1.Controls.Add(this.CmbDurum);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1151, 599);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "İş Tanımlama";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
             // BtnTemizle
             // 
-            this.BtnTemizle.BackColor = System.Drawing.Color.IndianRed;
-            this.BtnTemizle.Location = new System.Drawing.Point(448, 449);
+            this.BtnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
+            this.BtnTemizle.Location = new System.Drawing.Point(475, 444);
             this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(224, 40);
+            this.BtnTemizle.Size = new System.Drawing.Size(224, 41);
             this.BtnTemizle.TabIndex = 20;
             this.BtnTemizle.Text = "Temizle";
             this.BtnTemizle.UseVisualStyleBackColor = false;
@@ -179,10 +155,11 @@
             // 
             // BtnIslemDon
             // 
-            this.BtnIslemDon.BackColor = System.Drawing.Color.CadetBlue;
-            this.BtnIslemDon.Location = new System.Drawing.Point(448, 495);
+            this.BtnIslemDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnIslemDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnIslemDon.Location = new System.Drawing.Point(705, 444);
             this.BtnIslemDon.Name = "BtnIslemDon";
-            this.BtnIslemDon.Size = new System.Drawing.Size(224, 40);
+            this.BtnIslemDon.Size = new System.Drawing.Size(224, 41);
             this.BtnIslemDon.TabIndex = 19;
             this.BtnIslemDon.Text = "Geri Dön";
             this.BtnIslemDon.UseVisualStyleBackColor = false;
@@ -190,8 +167,9 @@
             // 
             // BtnTanımla
             // 
-            this.BtnTanımla.BackColor = System.Drawing.Color.SteelBlue;
-            this.BtnTanımla.Location = new System.Drawing.Point(448, 402);
+            this.BtnTanımla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnTanımla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.BtnTanımla.Location = new System.Drawing.Point(935, 444);
             this.BtnTanımla.Name = "BtnTanımla";
             this.BtnTanımla.Size = new System.Drawing.Size(224, 41);
             this.BtnTanımla.TabIndex = 18;
@@ -202,7 +180,7 @@
             // DtpTeslimTarih
             // 
             this.DtpTeslimTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpTeslimTarih.Location = new System.Drawing.Point(448, 351);
+            this.DtpTeslimTarih.Location = new System.Drawing.Point(930, 66);
             this.DtpTeslimTarih.Name = "DtpTeslimTarih";
             this.DtpTeslimTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpTeslimTarih.TabIndex = 17;
@@ -210,7 +188,7 @@
             // DtpGuncellemeTarih
             // 
             this.DtpGuncellemeTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(448, 291);
+            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(570, 65);
             this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
             this.DtpGuncellemeTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpGuncellemeTarih.TabIndex = 16;
@@ -218,7 +196,7 @@
             // DtpOlusturmaTarih
             // 
             this.DtpOlusturmaTarih.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(448, 237);
+            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(167, 63);
             this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
             this.DtpOlusturmaTarih.Size = new System.Drawing.Size(224, 37);
             this.DtpOlusturmaTarih.TabIndex = 15;
@@ -226,9 +204,9 @@
             // 
             // RchAciklama
             // 
-            this.RchAciklama.Location = new System.Drawing.Point(860, 185);
+            this.RchAciklama.Location = new System.Drawing.Point(167, 263);
             this.RchAciklama.Name = "RchAciklama";
-            this.RchAciklama.Size = new System.Drawing.Size(224, 350);
+            this.RchAciklama.Size = new System.Drawing.Size(987, 151);
             this.RchAciklama.TabIndex = 14;
             this.RchAciklama.Text = "";
             // 
@@ -244,21 +222,21 @@
             "Altay Köse",
             "Burçin Koçyigit",
             "Doruk Öztürk"});
-            this.CmbSorumlu.Location = new System.Drawing.Point(860, 123);
+            this.CmbSorumlu.Location = new System.Drawing.Point(570, 136);
             this.CmbSorumlu.Name = "CmbSorumlu";
             this.CmbSorumlu.Size = new System.Drawing.Size(224, 37);
             this.CmbSorumlu.TabIndex = 13;
             // 
             // TxtProje
             // 
-            this.TxtProje.Location = new System.Drawing.Point(448, 177);
+            this.TxtProje.Location = new System.Drawing.Point(930, 139);
             this.TxtProje.Name = "TxtProje";
             this.TxtProje.Size = new System.Drawing.Size(224, 37);
             this.TxtProje.TabIndex = 12;
             // 
             // TxtBaslik
             // 
-            this.TxtBaslik.Location = new System.Drawing.Point(448, 126);
+            this.TxtBaslik.Location = new System.Drawing.Point(167, 203);
             this.TxtBaslik.Name = "TxtBaslik";
             this.TxtBaslik.Size = new System.Drawing.Size(224, 37);
             this.TxtBaslik.TabIndex = 11;
@@ -270,7 +248,7 @@
             "Soru",
             "Hata",
             "Geliştirme"});
-            this.CmbIsTipi.Location = new System.Drawing.Point(127, 177);
+            this.CmbIsTipi.Location = new System.Drawing.Point(570, 204);
             this.CmbIsTipi.Name = "CmbIsTipi";
             this.CmbIsTipi.Size = new System.Drawing.Size(224, 37);
             this.CmbIsTipi.TabIndex = 10;
@@ -285,7 +263,7 @@
             "Analiz",
             "Geliştirme",
             "Müşteri Testi"});
-            this.CmbDurum.Location = new System.Drawing.Point(127, 129);
+            this.CmbDurum.Location = new System.Drawing.Point(167, 133);
             this.CmbDurum.Name = "CmbDurum";
             this.CmbDurum.Size = new System.Drawing.Size(224, 37);
             this.CmbDurum.TabIndex = 9;
@@ -294,9 +272,29 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1178, 641);
-            this.Controls.Add(this.groupBox1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
+            this.ClientSize = new System.Drawing.Size(1178, 522);
+            this.Controls.Add(this.CmbSorumlu);
+            this.Controls.Add(this.RchAciklama);
+            this.Controls.Add(this.TxtProje);
+            this.Controls.Add(this.DtpTeslimTarih);
+            this.Controls.Add(this.TxtBaslik);
+            this.Controls.Add(this.CmbIsTipi);
+            this.Controls.Add(this.BtnTemizle);
+            this.Controls.Add(this.CmbDurum);
+            this.Controls.Add(this.DtpGuncellemeTarih);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.DtpOlusturmaTarih);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.BtnIslemDon);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.BtnTanımla);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
             this.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -306,9 +304,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İş Tanımlama";
             this.Load += new System.EventHandler(this.FrmIsTanımla_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -323,7 +320,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox CmbIsTipi;
         private System.Windows.Forms.ComboBox CmbDurum;
         private System.Windows.Forms.ComboBox CmbSorumlu;

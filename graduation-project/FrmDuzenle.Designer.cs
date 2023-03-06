@@ -35,12 +35,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(1228, 580);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MinimizeBox = false;
             this.Name = "FrmDuzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
