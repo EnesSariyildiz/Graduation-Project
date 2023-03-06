@@ -81,7 +81,7 @@
             // 
             // BtnKaydıSil
             // 
-            this.BtnKaydıSil.BackColor = System.Drawing.Color.IndianRed;
+            this.BtnKaydıSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
             this.BtnKaydıSil.Location = new System.Drawing.Point(276, 39);
             this.BtnKaydıSil.Name = "BtnKaydıSil";
             this.BtnKaydıSil.Size = new System.Drawing.Size(196, 31);
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(1113, 538);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnListeGüncelle);
