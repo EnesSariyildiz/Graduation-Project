@@ -145,7 +145,7 @@
             // BtnTemizle
             // 
             this.BtnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
-            this.BtnTemizle.Location = new System.Drawing.Point(475, 444);
+            this.BtnTemizle.Location = new System.Drawing.Point(705, 444);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(224, 41);
             this.BtnTemizle.TabIndex = 20;
@@ -155,9 +155,9 @@
             // 
             // BtnIslemDon
             // 
-            this.BtnIslemDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnIslemDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(103)))), ((int)(((byte)(105)))));
             this.BtnIslemDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnIslemDon.Location = new System.Drawing.Point(705, 444);
+            this.BtnIslemDon.Location = new System.Drawing.Point(475, 444);
             this.BtnIslemDon.Name = "BtnIslemDon";
             this.BtnIslemDon.Size = new System.Drawing.Size(224, 41);
             this.BtnIslemDon.TabIndex = 19;

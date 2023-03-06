@@ -179,7 +179,7 @@
             // DtpGuncellemeTarih
             // 
             this.DtpGuncellemeTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(495, 86);
+            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(487, 86);
             this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
             this.DtpGuncellemeTarih.Size = new System.Drawing.Size(182, 24);
             this.DtpGuncellemeTarih.TabIndex = 17;
@@ -189,7 +189,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(374, 89);
+            this.label9.Location = new System.Drawing.Point(366, 89);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(118, 19);
             this.label9.TabIndex = 16;
@@ -236,7 +236,7 @@
             // 
             this.BtnFiltrele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnFiltrele.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnFiltrele.Location = new System.Drawing.Point(672, 134);
+            this.BtnFiltrele.Location = new System.Drawing.Point(786, 134);
             this.BtnFiltrele.Name = "BtnFiltrele";
             this.BtnFiltrele.Size = new System.Drawing.Size(224, 41);
             this.BtnFiltrele.TabIndex = 22;
@@ -246,9 +246,9 @@
             // 
             // BtnGeriDön
             // 
-            this.BtnGeriDön.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnGeriDön.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(103)))), ((int)(((byte)(105)))));
             this.BtnGeriDön.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnGeriDön.Location = new System.Drawing.Point(209, 134);
+            this.BtnGeriDön.Location = new System.Drawing.Point(323, 134);
             this.BtnGeriDön.Name = "BtnGeriDön";
             this.BtnGeriDön.Size = new System.Drawing.Size(224, 41);
             this.BtnGeriDön.TabIndex = 23;
@@ -276,7 +276,7 @@
             // 
             this.BtnListeyiGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnListeyiGuncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnListeyiGuncelle.Location = new System.Drawing.Point(439, 134);
+            this.BtnListeyiGuncelle.Location = new System.Drawing.Point(553, 134);
             this.BtnListeyiGuncelle.Name = "BtnListeyiGuncelle";
             this.BtnListeyiGuncelle.Size = new System.Drawing.Size(224, 41);
             this.BtnListeyiGuncelle.TabIndex = 26;

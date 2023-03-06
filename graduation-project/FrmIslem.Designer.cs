@@ -50,11 +50,11 @@
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.groupBox1.Location = new System.Drawing.Point(230, 13);
+            this.groupBox1.Location = new System.Drawing.Point(251, 13);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(1050, 422);
+            this.groupBox1.Size = new System.Drawing.Size(1029, 422);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -65,7 +65,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(5, 26);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1040, 391);
+            this.dataGridView1.Size = new System.Drawing.Size(1019, 391);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
@@ -84,18 +84,17 @@
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             this.groupBox2.Location = new System.Drawing.Point(13, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(209, 422);
+            this.groupBox2.Size = new System.Drawing.Size(230, 422);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "İşlemler";
             // 
             // BtnCikis
             // 
             this.BtnCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
             this.BtnCikis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.BtnCikis.Location = new System.Drawing.Point(6, 382);
+            this.BtnCikis.Location = new System.Drawing.Point(9, 369);
             this.BtnCikis.Name = "BtnCikis";
-            this.BtnCikis.Size = new System.Drawing.Size(197, 29);
+            this.BtnCikis.Size = new System.Drawing.Size(213, 37);
             this.BtnCikis.TabIndex = 8;
             this.BtnCikis.Text = "Çıkış";
             this.BtnCikis.UseVisualStyleBackColor = false;
@@ -105,9 +104,9 @@
             // 
             this.BtnListele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnListele.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnListele.Location = new System.Drawing.Point(6, 207);
+            this.BtnListele.Location = new System.Drawing.Point(9, 154);
             this.BtnListele.Name = "BtnListele";
-            this.BtnListele.Size = new System.Drawing.Size(197, 29);
+            this.BtnListele.Size = new System.Drawing.Size(213, 37);
             this.BtnListele.TabIndex = 7;
             this.BtnListele.Text = "Güncelle";
             this.BtnListele.UseVisualStyleBackColor = false;
@@ -117,9 +116,9 @@
             // 
             this.BtnFiltreleme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnFiltreleme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnFiltreleme.Location = new System.Drawing.Point(6, 277);
+            this.BtnFiltreleme.Location = new System.Drawing.Point(9, 240);
             this.BtnFiltreleme.Name = "BtnFiltreleme";
-            this.BtnFiltreleme.Size = new System.Drawing.Size(197, 29);
+            this.BtnFiltreleme.Size = new System.Drawing.Size(213, 37);
             this.BtnFiltreleme.TabIndex = 6;
             this.BtnFiltreleme.Text = "Filtreleme";
             this.BtnFiltreleme.UseVisualStyleBackColor = false;
@@ -157,9 +156,9 @@
             // 
             this.BtnSilme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnSilme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnSilme.Location = new System.Drawing.Point(6, 347);
+            this.BtnSilme.Location = new System.Drawing.Point(9, 326);
             this.BtnSilme.Name = "BtnSilme";
-            this.BtnSilme.Size = new System.Drawing.Size(197, 29);
+            this.BtnSilme.Size = new System.Drawing.Size(213, 37);
             this.BtnSilme.TabIndex = 2;
             this.BtnSilme.Text = "Silme";
             this.BtnSilme.UseVisualStyleBackColor = false;
@@ -169,9 +168,9 @@
             // 
             this.BtnDuzenle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnDuzenle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnDuzenle.Location = new System.Drawing.Point(6, 312);
+            this.BtnDuzenle.Location = new System.Drawing.Point(9, 283);
             this.BtnDuzenle.Name = "BtnDuzenle";
-            this.BtnDuzenle.Size = new System.Drawing.Size(197, 29);
+            this.BtnDuzenle.Size = new System.Drawing.Size(213, 37);
             this.BtnDuzenle.TabIndex = 1;
             this.BtnDuzenle.Text = "Düzenle";
             this.BtnDuzenle.UseVisualStyleBackColor = false;
@@ -180,9 +179,9 @@
             // 
             this.BtnTanımlama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.BtnTanımlama.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnTanımlama.Location = new System.Drawing.Point(6, 242);
+            this.BtnTanımlama.Location = new System.Drawing.Point(9, 197);
             this.BtnTanımlama.Name = "BtnTanımlama";
-            this.BtnTanımlama.Size = new System.Drawing.Size(197, 29);
+            this.BtnTanımlama.Size = new System.Drawing.Size(213, 37);
             this.BtnTanımlama.TabIndex = 0;
             this.BtnTanımlama.Text = "Tanımla";
             this.BtnTanımlama.UseVisualStyleBackColor = false;
