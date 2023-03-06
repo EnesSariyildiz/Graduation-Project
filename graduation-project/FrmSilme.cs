@@ -35,7 +35,15 @@ namespace graduation_project
             komutSilme.Parameters.AddWithValue("@ID", TxtId.Text);
             komutSilme.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Kayıt silinidi!", "Uyarı");
+            //MessageBox.Show("Kayıt silinidi!", "Uyarı");
+
+            // Kayıt silindikten sonra tabloyu güncelle
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Tbl_Isler", bgl.baglanti());
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+            MessageBox.Show("Kayıt silindi!", "Uyarı");
         }
 
         private void button2_Click(object sender, EventArgs e)

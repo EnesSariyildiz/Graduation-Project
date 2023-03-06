@@ -84,5 +84,10 @@ namespace graduation_project
 
 
         }
+
+        private void BtnCikis_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -32,7 +32,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnCikis = new System.Windows.Forms.Button();
             this.BtnListele = new System.Windows.Forms.Button();
             this.BtnFiltreleme = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -73,7 +73,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.BtnCikis);
             this.groupBox2.Controls.Add(this.BtnListele);
             this.groupBox2.Controls.Add(this.BtnFiltreleme);
             this.groupBox2.Controls.Add(this.label3);
@@ -90,16 +90,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İşlemler";
             // 
-            // button1
+            // BtnCikis
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(6, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 29);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Çıkış";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
+            this.BtnCikis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.BtnCikis.Location = new System.Drawing.Point(6, 382);
+            this.BtnCikis.Name = "BtnCikis";
+            this.BtnCikis.Size = new System.Drawing.Size(197, 29);
+            this.BtnCikis.TabIndex = 8;
+            this.BtnCikis.Text = "Çıkış";
+            this.BtnCikis.UseVisualStyleBackColor = false;
+            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
             // BtnListele
             // 
@@ -225,7 +226,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnFiltreleme;
         private System.Windows.Forms.Button BtnListele;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnCikis;
     }
 }
 

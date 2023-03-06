@@ -1,6 +1,13 @@
 ﻿Personal id : admin
+
 password    : 1234
+
 Sql Baglanti adresi:
+
 Data Source=DESKTOP-T54ECK5;Initial Catalog=GraduationProject;Integrated Security=True
-Buton Renk Kodları: 57; 62; 70
+
+Birincil Buton Renk Kodları: 57; 62; 70
+
 İkincil Buton Renk Kodları: 213; 238; 255
+
+Uyarı Buton Renk Kodları : 232; 91; 72
