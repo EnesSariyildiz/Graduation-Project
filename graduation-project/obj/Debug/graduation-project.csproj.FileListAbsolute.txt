@@ -19,7 +19,6 @@ C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\bin\Debug\graduation-project.pdb
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation-project.csproj.AssemblyReference.cache
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation-project.csproj.SuggestedBindingRedirects.cache
-C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmDuzenle.resources
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmGiris.resources
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmIsFiltreleme.resources
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmIsTanımla.resources
@@ -30,3 +29,4 @@ C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation-project.csproj.CoreCompileInputs.cache
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation-project.exe
 C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation-project.pdb
+C:\Users\ens_s\Desktop\Software\graduation-project\graduation-project\graduation-project\obj\Debug\graduation_project.FrmGuncelle.resources

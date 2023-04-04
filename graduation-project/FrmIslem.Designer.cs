@@ -32,11 +32,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnCikis = new System.Windows.Forms.Button();
             this.BtnListele = new System.Windows.Forms.Button();
             this.BtnFiltreleme = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnSilme = new System.Windows.Forms.Button();
             this.BtnDuzenle = new System.Windows.Forms.Button();
@@ -44,6 +43,7 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -72,11 +72,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.BtnCikis);
             this.groupBox2.Controls.Add(this.BtnListele);
             this.groupBox2.Controls.Add(this.BtnFiltreleme);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.BtnSilme);
             this.groupBox2.Controls.Add(this.BtnDuzenle);
@@ -87,6 +86,16 @@
             this.groupBox2.Size = new System.Drawing.Size(230, 422);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(14, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(208, 122);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // BtnCikis
             // 
@@ -108,7 +117,7 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(213, 37);
             this.BtnListele.TabIndex = 7;
-            this.BtnListele.Text = "Güncelle";
+            this.BtnListele.Text = "Yenile";
             this.BtnListele.UseVisualStyleBackColor = false;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -123,26 +132,6 @@
             this.BtnFiltreleme.Text = "Filtreleme";
             this.BtnFiltreleme.UseVisualStyleBackColor = false;
             this.BtnFiltreleme.Click += new System.EventHandler(this.BtnFiltreleme_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(14, 56);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 21);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "admin";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(14, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 21);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Personal Id";
             // 
             // label1
             // 
@@ -172,8 +161,9 @@
             this.BtnDuzenle.Name = "BtnDuzenle";
             this.BtnDuzenle.Size = new System.Drawing.Size(213, 37);
             this.BtnDuzenle.TabIndex = 1;
-            this.BtnDuzenle.Text = "Düzenle";
+            this.BtnDuzenle.Text = "Güncelle";
             this.BtnDuzenle.UseVisualStyleBackColor = false;
+            this.BtnDuzenle.Click += new System.EventHandler(this.BtnDuzenle_Click);
             // 
             // BtnTanımlama
             // 
@@ -209,6 +199,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -222,11 +213,10 @@
         private System.Windows.Forms.Button BtnDuzenle;
         private System.Windows.Forms.Button BtnTanımlama;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnFiltreleme;
         private System.Windows.Forms.Button BtnListele;
         private System.Windows.Forms.Button BtnCikis;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

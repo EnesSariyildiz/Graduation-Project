@@ -83,5 +83,12 @@ namespace graduation_project
             Application.Exit();
             // Uygulamadan çıkış yapılıyor.
         }
+
+        private void BtnDuzenle_Click(object sender, EventArgs e)
+        {
+            FrmGuncelle fr = new FrmGuncelle();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

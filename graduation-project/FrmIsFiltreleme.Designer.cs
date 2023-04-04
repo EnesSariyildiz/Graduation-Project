@@ -33,22 +33,14 @@
             this.CmbDurum = new System.Windows.Forms.ComboBox();
             this.CmbIsTipi = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.CmbSorumlu = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.DtpOlusturmaTarih = new System.Windows.Forms.DateTimePicker();
-            this.DtpGuncellemeTarih = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
-            this.DtpTeslimTarih = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BtnFiltrele = new System.Windows.Forms.Button();
             this.BtnGeriDön = new System.Windows.Forms.Button();
-            this.TxtBaslik = new System.Windows.Forms.TextBox();
-            this.TxtProje = new System.Windows.Forms.TextBox();
             this.BtnListeyiGuncelle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -106,17 +98,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "İş Tipi";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(404, 39);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 19);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Başlık";
-            // 
             // CmbSorumlu
             // 
             this.CmbSorumlu.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
@@ -130,7 +111,7 @@
             "Altay Köse",
             "Burçin Koçyigit",
             "Doruk Öztürk"});
-            this.CmbSorumlu.Location = new System.Drawing.Point(876, 32);
+            this.CmbSorumlu.Location = new System.Drawing.Point(467, 31);
             this.CmbSorumlu.Name = "CmbSorumlu";
             this.CmbSorumlu.Size = new System.Drawing.Size(131, 37);
             this.CmbSorumlu.TabIndex = 11;
@@ -140,29 +121,18 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label5.Location = new System.Drawing.Point(808, 39);
+            this.label5.Location = new System.Drawing.Point(399, 38);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 19);
             this.label5.TabIndex = 10;
             this.label5.Text = "Sorumlu";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label6.Location = new System.Drawing.Point(609, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 19);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Proje";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label8.Location = new System.Drawing.Point(34, 88);
+            this.label8.Location = new System.Drawing.Point(607, 40);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 19);
             this.label8.TabIndex = 14;
@@ -171,48 +141,10 @@
             // DtpOlusturmaTarih
             // 
             this.DtpOlusturmaTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(148, 86);
+            this.DtpOlusturmaTarih.Location = new System.Drawing.Point(721, 38);
             this.DtpOlusturmaTarih.Name = "DtpOlusturmaTarih";
             this.DtpOlusturmaTarih.Size = new System.Drawing.Size(182, 24);
             this.DtpOlusturmaTarih.TabIndex = 15;
-            // 
-            // DtpGuncellemeTarih
-            // 
-            this.DtpGuncellemeTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.DtpGuncellemeTarih.Location = new System.Drawing.Point(487, 86);
-            this.DtpGuncellemeTarih.Name = "DtpGuncellemeTarih";
-            this.DtpGuncellemeTarih.Size = new System.Drawing.Size(182, 24);
-            this.DtpGuncellemeTarih.TabIndex = 17;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(366, 89);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(118, 19);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Güncelleme Tarihi";
-            // 
-            // DtpTeslimTarih
-            // 
-            this.DtpTeslimTarih.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F);
-            this.DtpTeslimTarih.Location = new System.Drawing.Point(808, 87);
-            this.DtpTeslimTarih.Name = "DtpTeslimTarih";
-            this.DtpTeslimTarih.Size = new System.Drawing.Size(182, 24);
-            this.DtpTeslimTarih.TabIndex = 19;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label10.Location = new System.Drawing.Point(702, 89);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 19);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Teslim Tarihi";
             // 
             // groupBox1
             // 
@@ -256,22 +188,6 @@
             this.BtnGeriDön.UseVisualStyleBackColor = false;
             this.BtnGeriDön.Click += new System.EventHandler(this.button2_Click);
             // 
-            // TxtBaslik
-            // 
-            this.TxtBaslik.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
-            this.TxtBaslik.Location = new System.Drawing.Point(467, 32);
-            this.TxtBaslik.Name = "TxtBaslik";
-            this.TxtBaslik.Size = new System.Drawing.Size(131, 37);
-            this.TxtBaslik.TabIndex = 24;
-            // 
-            // TxtProje
-            // 
-            this.TxtProje.Font = new System.Drawing.Font("Baloo Thambi 2", 14.25F);
-            this.TxtProje.Location = new System.Drawing.Point(662, 32);
-            this.TxtProje.Name = "TxtProje";
-            this.TxtProje.Size = new System.Drawing.Size(131, 37);
-            this.TxtProje.TabIndex = 25;
-            // 
             // BtnListeyiGuncelle
             // 
             this.BtnListeyiGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
@@ -291,30 +207,20 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(1113, 538);
             this.Controls.Add(this.BtnListeyiGuncelle);
-            this.Controls.Add(this.TxtProje);
-            this.Controls.Add(this.TxtBaslik);
             this.Controls.Add(this.BtnGeriDön);
             this.Controls.Add(this.BtnFiltrele);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.DtpTeslimTarih);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.DtpGuncellemeTarih);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.DtpOlusturmaTarih);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.CmbSorumlu);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.CmbIsTipi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.CmbDurum);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.MaximizeBox = false;
             this.Name = "FrmIsFiltreleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İş Filtreleme";
@@ -332,22 +238,14 @@
         private System.Windows.Forms.ComboBox CmbDurum;
         private System.Windows.Forms.ComboBox CmbIsTipi;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox CmbSorumlu;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker DtpOlusturmaTarih;
-        private System.Windows.Forms.DateTimePicker DtpGuncellemeTarih;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker DtpTeslimTarih;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button BtnFiltrele;
         private System.Windows.Forms.Button BtnGeriDön;
-        private System.Windows.Forms.TextBox TxtBaslik;
-        private System.Windows.Forms.TextBox TxtProje;
         private System.Windows.Forms.Button BtnListeyiGuncelle;
     }
 }
