@@ -52,6 +52,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.TxtId = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -283,10 +284,21 @@
             // 
             // TxtId
             // 
-            this.TxtId.Location = new System.Drawing.Point(491, 24);
+            this.TxtId.Enabled = false;
+            this.TxtId.Location = new System.Drawing.Point(933, 220);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(100, 28);
+            this.TxtId.Size = new System.Drawing.Size(224, 28);
             this.TxtId.TabIndex = 43;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label10.Location = new System.Drawing.Point(832, 224);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(99, 21);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "Personal Id:";
             // 
             // FrmGuncelle
             // 
@@ -294,6 +306,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(1228, 768);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.TxtId);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.CmbSorumlu);
@@ -357,5 +370,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox TxtId;
+        private System.Windows.Forms.Label label10;
     }
 }

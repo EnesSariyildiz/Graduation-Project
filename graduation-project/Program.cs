@@ -16,7 +16,7 @@ namespace graduation_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmGuncelle());
+            Application.Run(new FrmGiris());
         }
     }
 }

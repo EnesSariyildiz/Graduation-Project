@@ -67,5 +67,12 @@ namespace graduation_project
         {
 
         }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilenDeger = dataGridView1.SelectedCells[0].RowIndex;
+
+            TxtId.Text = dataGridView1.Rows[secilenDeger].Cells[0].Value.ToString();
+        }
     }
 }
