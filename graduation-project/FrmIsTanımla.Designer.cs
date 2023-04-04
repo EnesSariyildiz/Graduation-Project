@@ -145,9 +145,10 @@
             // BtnTemizle
             // 
             this.BtnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
-            this.BtnTemizle.Location = new System.Drawing.Point(705, 444);
+            this.BtnTemizle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.BtnTemizle.Location = new System.Drawing.Point(890, 444);
             this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(224, 41);
+            this.BtnTemizle.Size = new System.Drawing.Size(129, 41);
             this.BtnTemizle.TabIndex = 20;
             this.BtnTemizle.Text = "Temizle";
             this.BtnTemizle.UseVisualStyleBackColor = false;
@@ -156,10 +157,10 @@
             // BtnIslemDon
             // 
             this.BtnIslemDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(103)))), ((int)(((byte)(105)))));
-            this.BtnIslemDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnIslemDon.Location = new System.Drawing.Point(475, 444);
+            this.BtnIslemDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.BtnIslemDon.Location = new System.Drawing.Point(755, 444);
             this.BtnIslemDon.Name = "BtnIslemDon";
-            this.BtnIslemDon.Size = new System.Drawing.Size(224, 41);
+            this.BtnIslemDon.Size = new System.Drawing.Size(129, 41);
             this.BtnIslemDon.TabIndex = 19;
             this.BtnIslemDon.Text = "Geri Dön";
             this.BtnIslemDon.UseVisualStyleBackColor = false;
@@ -167,11 +168,11 @@
             // 
             // BtnTanımla
             // 
-            this.BtnTanımla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.BtnTanımla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnTanımla.Location = new System.Drawing.Point(935, 444);
+            this.BtnTanımla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(177)))), ((int)(((byte)(152)))));
+            this.BtnTanımla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.BtnTanımla.Location = new System.Drawing.Point(1025, 444);
             this.BtnTanımla.Name = "BtnTanımla";
-            this.BtnTanımla.Size = new System.Drawing.Size(224, 41);
+            this.BtnTanımla.Size = new System.Drawing.Size(129, 41);
             this.BtnTanımla.TabIndex = 18;
             this.BtnTanımla.Text = "Tanımla";
             this.BtnTanımla.UseVisualStyleBackColor = false;

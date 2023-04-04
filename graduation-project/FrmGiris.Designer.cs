@@ -36,6 +36,7 @@
             this.BtnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ChkRememberMe = new System.Windows.Forms.CheckBox();
+            this.LblGirisHakki = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +55,7 @@
             // 
             this.TxtId.Location = new System.Drawing.Point(168, 390);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(290, 32);
+            this.TxtId.Size = new System.Drawing.Size(312, 32);
             this.TxtId.TabIndex = 1;
             // 
             // TxtPassword
@@ -62,7 +63,7 @@
             this.TxtPassword.Location = new System.Drawing.Point(168, 454);
             this.TxtPassword.MaxLength = 4;
             this.TxtPassword.Name = "TxtPassword";
-            this.TxtPassword.Size = new System.Drawing.Size(290, 32);
+            this.TxtPassword.Size = new System.Drawing.Size(312, 32);
             this.TxtPassword.TabIndex = 3;
             this.TxtPassword.UseSystemPasswordChar = true;
             // 
@@ -83,7 +84,7 @@
             this.BtnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.BtnLogin.Location = new System.Drawing.Point(168, 509);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(290, 35);
+            this.BtnLogin.Size = new System.Drawing.Size(312, 35);
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "Login";
             this.BtnLogin.UseVisualStyleBackColor = false;
@@ -92,7 +93,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(168, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(180, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(290, 286);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -103,13 +104,23 @@
             // 
             this.ChkRememberMe.AutoSize = true;
             this.ChkRememberMe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.ChkRememberMe.Location = new System.Drawing.Point(168, 550);
+            this.ChkRememberMe.Location = new System.Drawing.Point(349, 550);
             this.ChkRememberMe.Name = "ChkRememberMe";
-            this.ChkRememberMe.Size = new System.Drawing.Size(166, 29);
+            this.ChkRememberMe.Size = new System.Drawing.Size(131, 29);
             this.ChkRememberMe.TabIndex = 7;
-            this.ChkRememberMe.Text = "Remember me";
+            this.ChkRememberMe.Text = "Remember";
             this.ChkRememberMe.UseVisualStyleBackColor = true;
             this.ChkRememberMe.CheckedChanged += new System.EventHandler(this.ChkRememberMe_CheckedChanged);
+            // 
+            // LblGirisHakki
+            // 
+            this.LblGirisHakki.AutoSize = true;
+            this.LblGirisHakki.ForeColor = System.Drawing.Color.IndianRed;
+            this.LblGirisHakki.Location = new System.Drawing.Point(163, 551);
+            this.LblGirisHakki.Name = "LblGirisHakki";
+            this.LblGirisHakki.Size = new System.Drawing.Size(105, 25);
+            this.LblGirisHakki.TabIndex = 8;
+            this.LblGirisHakki.Text = "Kalan Hak";
             // 
             // FrmGiris
             // 
@@ -117,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(169)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(631, 647);
+            this.Controls.Add(this.LblGirisHakki);
             this.Controls.Add(this.ChkRememberMe);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnLogin);
@@ -148,5 +160,6 @@
         private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox ChkRememberMe;
+        private System.Windows.Forms.Label LblGirisHakki;
     }
 }

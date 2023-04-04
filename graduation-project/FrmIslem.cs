@@ -58,15 +58,6 @@ namespace graduation_project
             fr.Show();
             this.Hide();
 
-
-            //SqlCommand komutsil = new SqlCommand("Delete From Tbl_Isler where = @k1", bgl.baglanti());
-            //komutsil.Parameters.AddWithValue("@k1",);
-            //komutsil.ExecuteNonQuery();
-            ////Executenonquery = sorguyu çalıştır.
-            //bgl.baglanti().Close();
-            ////Bağlantı kapatılıyor.
-            //MessageBox.Show("Kayıt Silindi!");
-
         }
 
         private void BtnListele_Click(object sender, EventArgs e)
@@ -75,7 +66,9 @@ namespace graduation_project
             SqlDataAdapter da = new SqlDataAdapter("Select * from Tbl_Isler", bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+
             MessageBox.Show("Kayıt listeleri güncellendi!");
+            // Ekranda kayıt listelerinin güncellendiğine dair bilgi veriliyor.
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -88,6 +81,7 @@ namespace graduation_project
         private void BtnCikis_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            // Uygulamadan çıkış yapılıyor.
         }
     }
 }

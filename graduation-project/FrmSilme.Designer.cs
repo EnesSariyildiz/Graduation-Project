@@ -83,9 +83,10 @@
             // BtnKaydıSil
             // 
             this.BtnKaydıSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(91)))), ((int)(((byte)(72)))));
+            this.BtnKaydıSil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
             this.BtnKaydıSil.Location = new System.Drawing.Point(316, 32);
             this.BtnKaydıSil.Name = "BtnKaydıSil";
-            this.BtnKaydıSil.Size = new System.Drawing.Size(224, 41);
+            this.BtnKaydıSil.Size = new System.Drawing.Size(129, 41);
             this.BtnKaydıSil.TabIndex = 3;
             this.BtnKaydıSil.Text = "Kaydı Sil";
             this.BtnKaydıSil.UseVisualStyleBackColor = false;
@@ -93,23 +94,23 @@
             // 
             // BtnListeGüncelle
             // 
-            this.BtnListeGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.BtnListeGüncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.BtnListeGüncelle.Location = new System.Drawing.Point(546, 32);
+            this.BtnListeGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(177)))), ((int)(((byte)(152)))));
+            this.BtnListeGüncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.BtnListeGüncelle.Location = new System.Drawing.Point(451, 32);
             this.BtnListeGüncelle.Name = "BtnListeGüncelle";
-            this.BtnListeGüncelle.Size = new System.Drawing.Size(224, 41);
+            this.BtnListeGüncelle.Size = new System.Drawing.Size(129, 41);
             this.BtnListeGüncelle.TabIndex = 4;
-            this.BtnListeGüncelle.Text = "Listeyi Güncelle";
+            this.BtnListeGüncelle.Text = "Güncelle";
             this.BtnListeGüncelle.UseVisualStyleBackColor = false;
             this.BtnListeGüncelle.Click += new System.EventHandler(this.BtnListeGüncelle_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(103)))), ((int)(((byte)(105)))));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.button2.Location = new System.Drawing.Point(776, 32);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.button2.Location = new System.Drawing.Point(586, 32);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(224, 41);
+            this.button2.Size = new System.Drawing.Size(129, 41);
             this.button2.TabIndex = 5;
             this.button2.Text = "Geri Dön";
             this.button2.UseVisualStyleBackColor = false;
